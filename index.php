@@ -21,8 +21,8 @@
     <div class="item">
       <img src="Logo.png">
     </div>
-    <a href="index.html" class="item active">Home</a>
-    <a href="about.html" class="item">About</a>
+    <a href="index.php" class="item active">Home</a>
+    <a href="about.php" class="item">About</a>
     <div class="ui right floated inverted simple dropdown item">
       Contact
       <i class="dropdown icon"></i>
@@ -45,7 +45,7 @@
         </h1>
         <h3>You can use this website to calculate your current semester (SGPA) grade point averages and cumulative
           (CGPA) grade point averages.</h3>
-        <a href="landingpage.html"><div class="ui huge primary button">Explore Now <i class="right arrow icon"></i></div></a>
+        <a href="landingpage.php"><div class="ui huge primary button">Explore Now <i class="right arrow icon"></i></div></a>
       </div>
     </div>
   </div>

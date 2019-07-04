@@ -21,8 +21,8 @@
         <div class="item">
             <img src="Logo.png">
         </div>
-        <a href="index.html" class="item">Home</a>
-        <a href="about.html" class="item">About</a>
+        <a href="index.php" class="item">Home</a>
+        <a href="about.php" class="item">About</a>
         <div class="ui right floated inverted simple dropdown item">
             Contact
             <i class="dropdown icon"></i>

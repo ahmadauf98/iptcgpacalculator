@@ -153,7 +153,7 @@ function test_input($data) {
     <div class="item">
       <img src="Logo.png">
     </div>
-    <a href="index.html" class="item">Home</a>
+    <a href="index.php" class="item">Home</a>
     <div class="ui inverted simple dropdown item">
       Public University
       <i class="dropdown icon"></i>

@@ -21,7 +21,7 @@
     <div class="item">
       <img src="Logo.png">
     </div>
-    <a href="index.html" class="item">Home</a>
+    <a href="index.php" class="item">Home</a>
     <div class="ui inverted simple dropdown item">
       Public University
       <i class="dropdown icon"></i>
@@ -54,16 +54,16 @@
       Private University
       <i class="dropdown icon"></i>
       <div class="menu">
-        <div class="item"><a href="underconstruction.html" style="color:black;"><img src="utpicon.ico" alt=""
+        <div class="item"><a href="utpCalculator.php" style="color:black;"><img src="utpicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Petronas (UTP)</a></div>
-        <div class="item"><a href="underconstruction.html" style="color:black;"><img src="uniklicon.ico" alt=""
+        <div class="item"><a href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Kuala Lumpur (Unikl)</a></div>
-        <div class="item"><a href="underconstruction.html" style="color:black;"><img src="taylorsicon.ico" alt=""
+        <div class="item"><a href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Taylors University </a></div>
-        <div class="item"><a href="underconstruction.html" style="color:black;"><img src="unitenicon.ico" alt=""
+        <div class="item"><a href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Tenaga Nasional (Uniten)</a></div>
       </div>
@@ -108,10 +108,10 @@
         <div class="three wide column">
           <h4 class="ui inverted header">Private University</h4>
           <div class="ui inverted link list">
-            <a href="underconstruction.html" class="item">Universiti Teknologi Petronas</a>
-            <a href="underconstruction.html" class="item">Universiti Kuala Lumpur</a>
-            <a href="underconstruction.html" class="item">Taylors University</a>
-            <a href="underconstruction.html" class="item">Universiti Tenaga Nasional</a>
+            <a href="utpCalculator.php" class="item">Universiti Teknologi Petronas</a>
+            <a href="uniklCalculator.php" class="item">Universiti Kuala Lumpur</a>
+            <a href="taylorCalculator.php" class="item">Taylors University</a>
+            <a href="unitenCalculator.php" class="item">Universiti Tenaga Nasional</a>
           </div>
         </div>
         <div class="three wide column">
