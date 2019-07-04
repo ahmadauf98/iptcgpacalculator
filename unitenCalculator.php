@@ -222,7 +222,6 @@ function test_input($data) {
       <h1>CGPA Calculator (Universiti Tenaga Nasional)</h1>
     </div>
     <div class="two wide column">
-    <div class="ui skyscraper test ad" data-text="Skyscraper"></div>
     </div>
     <div class="twelve wide column">
       <form class="ui inverted form segment" id="Form" method="post"
@@ -636,7 +635,7 @@ function test_input($data) {
         </div>
       </div>
     </div>
-    <div class="two wide column"><div class="ui skyscraper test ad" data-text="Skyscraper"></div></div>
+    <div class="two wide column"></div>
   </div>
 
 
