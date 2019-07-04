@@ -45,7 +45,7 @@
         </h1>
         <h3>You can use this website to calculate your current semester (SGPA) grade point averages and cumulative
           (CGPA) grade point averages.</h3>
-        <a href="landingpage.php"><div class="ui huge primary button">Explore Now <i class="right arrow icon"></i></div></a>
+        <a href="landingpage.php"><div class="ui huge green button">Explore Now <i class="right arrow icon"></i></div></a>
       </div>
     </div>
   </div>

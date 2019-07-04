@@ -44,7 +44,7 @@
           ABOUT CGPA CALCULATOR
         </h1>
         <p>My intention to build this website is to help university students to calculate their cumulative grade point average (cgpa) and semester grade point average (gpa). It also help me to become a better website developer. Thank you for supporting my first project (own project).</p>
-            <a href="index.php"><div class="ui huge primary button"><i class="left arrow icon"></i>Back Home</div></a>
+            <a href="index.php"><div class="ui huge green button"><i class="left arrow icon"></i>Back Home</div></a>
       </div>
     </div>
     </div>
