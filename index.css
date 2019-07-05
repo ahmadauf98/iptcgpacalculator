@@ -28,6 +28,16 @@ h3 {
   background-size: cover;
 }
 
+#landing1 {
+  padding-top: 20%;
+  width: 100%;
+  padding-bottom: 18%;
+  background: url(background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #header {
   margin-top: 15%;
 }

@@ -38,7 +38,7 @@
     </div>
 
     <!-- Content Section-->
-    <div class="ui inverted vertical masthead center aligned segment" id="landing">
+    <div class="ui inverted vertical masthead center aligned segment" id="landing1">
         <div class="ui text container">
             <h1 class="ui inverted header" style="font-size: 50px;"> Select University :
             </h1>
