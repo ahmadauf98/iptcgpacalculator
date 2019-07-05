@@ -13,23 +13,23 @@ h1 {
 }
 
 h3 {
-    text-align: center;
-    color: #ededed;
-    margin-bottom: 8%;
-  }
-
-#landing{
-    padding-top: 3%;
-    width: 100%;
-    padding-bottom: 18%;
-    background: url(background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  text-align: center;
+  color: #ededed;
+  margin-bottom: 8%;
 }
 
-#header{
-    margin-top: 15%;
+#landing {
+  padding-top: 20%;
+  width: 100%;
+  padding-bottom: 18%;
+  background: url(background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+  margin-top: 15%;
 }
 
 table tr {
@@ -44,6 +44,44 @@ table tr {
   text-align: center;
 }
 
-#aadev{
-    margin-left: 12%;
+#aadev {
+  margin-left: 12%;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    display: block;
+  }
+
+  #imgLogo {
+    padding-left: 45%;
+    padding-right: 45%;
+  }
+
+  #landing {
+    margin-top: 20%;
+    padding-top: 40%;
+    width: 100%;
+    padding-bottom: 18%;
+    background: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #nav {
+    padding-left: 45%;
+    padding-right: 45%;
+  }
+
+  #navl {
+    padding-left: 0;
+    padding-right:0;
+  }
+
+  #dropdown{
+    padding-left: 43%;
+    padding-right: 45%;
+  }
+
 }

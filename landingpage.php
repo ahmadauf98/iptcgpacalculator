@@ -17,17 +17,17 @@
 
 <body>
     <!-- Navigation Bar Section-->
-    <div class="ui inverted top fixed menu">
-        <div class="item">
+    <div class="ui inverted top fixed menu" id="navbar">
+        <div class="item" id="imgLogo">
             <img src="Logo.png">
         </div>
-        <a href="index.php" class="item">Home</a>
-        <a href="about.php" class="item">About</a>
-        <div class="ui right floated inverted simple dropdown item">
+        <a href="index.php" class="item active" id="nav">Home</a>
+        <a href="about.php" class="item" id="nav">About</a>
+        <div class="ui right floated inverted simple dropdown item" id="dropdown">
             Contact
             <i class="dropdown icon"></i>
             <div class="menu">
-                <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item">
+                <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
                     <i class="facebook icon"></i> Facebook</a>
                 <a href="https://twitter.com/Auf2098" class="item">
                     <i class="twitter icon"></i> Twitter</a>
@@ -36,62 +36,61 @@
             </div>
         </div>
     </div>
+
     <!-- Content Section-->
     <div class="ui inverted vertical masthead center aligned segment" id="landing">
-        <div class="two wide column">
-            <div class="ui text container" id="header">
-                <h1 class="ui inverted header" style="font-size: 50px;"> Select University :
-                </h1>
-                <div class="ui simple dropdown item">
-                    <div style="font-size: 20px; margin-right: 30px;">
-                        <i class="dropdown icon"></i> Public University
-                    </div>
-                    <div class="menu">
-                        <div class="item"><a href="umCalculator.php" style="color:black;"><img src="umicon.ico" alt=""
-                                    height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Malaya (UM)</a></div>
-                        <div class="item"><a href="upmCalculator.php" style="color:black;"><img src="upmicon.ico" alt=""
-                                    height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Pertanian Malaysia (UPM)</a></div>
-                        <div class="item"><a href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico"
-                                    alt="" height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Teknologi Mara (UITM)</a></div>
-                        <div class="item"><a href="utmCalculator.php" style="color:black;"><img src="utmicon.ico" alt=""
-                                    height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Teknologi Malaysia (UTM)</a></div>
-                        <div class="item"><a href="ukmCalculator.php" style="color:black;"><img src="ukmicon.ico" alt=""
-                                    height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Kebangsaan Malaysia (UKM)</a></div>
-                        <div class="item"><a href="uiaCalculator.php" style="color:black;"><img src="uiaicon.ico" alt=""
-                                    height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Islam Antarabangsa Malaysia (UIAM)</a></div>
-                        <div class="item"><a href="usmCalculator.php" style="color:black;"><img src="usmicon.ico"
-                                    alt="" height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Sains Malaysia (USM)</a></div>
+        <div class="ui text container">
+            <h1 class="ui inverted header" style="font-size: 50px;"> Select University :
+            </h1>
 
-                    </div>
+            <div class="ui simple dropdown item" id="navl">
+                <div style="font-size: 20px; margin-right: 30px;" id="navbar">
+                    <i class="dropdown icon"></i> Public University
                 </div>
-                <div class="ui simple dropdown item">
-                    <div style="font-size: 20px; margin-right: 30px;">
-                        <i class="dropdown icon"></i> Private University
-                    </div>
-                    <div class="menu">
-                        <div class="item"><a href="utpCalculator.php" style="color:black;"><img src="utpicon.ico"
-                                    alt="" height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Petronas (UTP)</a></div>
-                        <div class="item"><a href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico"
-                                    alt="" height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Kuala Lumpur (Unikl)</a></div>
-                        <div class="item"><a href="taylorCalculator.php" style="color:black;"><img
-                                    src="taylorsicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
-                                Taylors University </a></div>
-                        <div class="item"><a href="uniklCalculator.php" style="color:black;"><img
-                                    src="unitenicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
-                                Universiti Tenaga Nasional (Uniten)</a></div>
-
-                    </div>
+                <div class="menu">
+                    <a href="umCalculator.php" style="color:black;" class="item"><img src="umicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Malaya</a>
+                    <a href="upmCalculator.php" style="color:black;" class="item"><img src="upmicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Pertanian Malaysia</a>
+                    <a href="uitmCalculator.php" style="color:black;" class="item"><img src="uitmicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Teknologi Mara</a>
+                    <a href="utmCalculator.php" style="color:black;" class="item"><img src="utmicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Teknologi Malaysia</a>
+                    <a href="ukmCalculator.php" style="color:black;" class="item"><img src="ukmicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Kebangsaan Malaysia</a>
+                    <a href="uiaCalculator.php" style="color:black;" class="item"><img src="uiaicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Islam Antarabangsa</a>
+                    <a href="usmCalculator.php" style="color:black;" class="item"><img src="usmicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Sains Malaysia</a>
                 </div>
             </div>
+            <div class="ui simple dropdown item" id="navl">
+                <div style="font-size: 20px; margin-right: 30px;">
+                    <i class="dropdown icon"></i> Private University
+                </div>
+                <div class="menu">
+                    <a href="utpCalculator.php" style="color:black;" class="item"><img src="utpicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Petronas</a>
+                    <a href="uniklCalculator.php" style="color:black;" class="item"><img src="uniklicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Kuala Lumpur</a>
+                    <a href="taylorCalculator.php" style="color:black;" class="item"><img src="taylorsicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Taylors University </a>
+                    <a href="uniklCalculator.php" style="color:black;" class="item"><img src="unitenicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Tenaga Nasional</a>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -115,8 +114,6 @@
             </div>
         </div>
     </div>
-
-    <script src="js.js"></script>
 </body>
 
 </html>

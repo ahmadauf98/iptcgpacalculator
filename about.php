@@ -17,37 +17,42 @@
 
 <body>
   <!-- Navigation Bar Section-->
-  <div class="ui inverted top fixed menu">
-    <div class="item">
+  <div class="ui inverted top fixed menu" id="navbar">
+    <div class="item" id="imgLogo">
       <img src="Logo.png">
     </div>
-    <a href="index.php" class="item">Home</a>
-    <a href="about.php" class="item active">About</a>
-    <div class="ui right floated inverted simple dropdown item">
-            Contact
-            <i class="dropdown icon"></i>
-            <div class="menu">
-              <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item">
-                  <i class="facebook icon"></i> Facebook</a>
-              <a href="https://twitter.com/Auf2098" class="item">
-                  <i class="twitter icon"></i> Twitter</a>
-              <a href="https://www.instagram.com/ahmadauf2098/" class="item">
-                  <i class="instagram icon"></i> Instagram</a>
-            </div>
-          </div>
+    <a href="index.php" class="item active" id="nav">Home</a>
+    <a href="about.php" class="item" id="nav">About</a>
+    <div class="ui right floated inverted simple dropdown item" id="dropdown">
+      Contact
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
+          <i class="facebook icon"></i> Facebook</a>
+        <a href="https://twitter.com/Auf2098" class="item">
+          <i class="twitter icon"></i> Twitter</a>
+        <a href="https://www.instagram.com/ahmadauf2098/" class="item">
+          <i class="instagram icon"></i> Instagram</a>
+      </div>
+    </div>
   </div>
+
   <!-- Content Section-->
   <div class="ui inverted vertical masthead center aligned segment" id="landing">
-      <div class="two wide column">
-    <div class="ui text container" id="header">
+    <div class="two wide column">
+      <div class="ui text container" id="header">
         <h1 class="ui inverted header">
           ABOUT CGPA CALCULATOR
         </h1>
-        <p>My intention to build this website is to help university students to calculate their cumulative grade point average (cgpa) and semester grade point average (gpa). It also help me to become a better website developer. Thank you for supporting my first project (own project).</p>
-            <a href="index.php"><div class="ui huge green button"><i class="left arrow icon"></i>Back Home</div></a>
+        <p>My intention to build this website is to help university students to calculate their cumulative grade point
+          average (cgpa) and semester grade point average (gpa). It also help me to become a better website developer.
+          Thank you for supporting my first project (own project).</p>
+        <a href="index.php">
+          <div class="ui huge green button"><i class="left arrow icon"></i>Back Home</div>
+        </a>
       </div>
     </div>
-    </div>
+  </div>
 
   <!-- Footer Section-->
   <div class="ui inverted vertical footer segment" id="footer">

@@ -12,30 +12,33 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
   <script type="text/javascript"
     src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+
   <!-- Navigation Bar Section-->
-  <div class="ui inverted top fixed menu">
-    <div class="item">
+  <div class="ui inverted top fixed menu" id="navbar">
+    <div class="item" id="imgLogo">
       <img src="Logo.png">
     </div>
-    <a href="index.php" class="item active">Home</a>
-    <a href="about.php" class="item">About</a>
-    <div class="ui right floated inverted simple dropdown item">
+    <a href="index.php" class="item active" id="nav">Home</a>
+    <a href="about.php" class="item" id="nav">About</a>
+    <div class="ui right floated inverted simple dropdown item" id="dropdown">
       Contact
       <i class="dropdown icon"></i>
       <div class="menu">
-        <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item">
-            <i class="facebook icon"></i> Facebook</a>
+        <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
+          <i class="facebook icon"></i> Facebook</a>
         <a href="https://twitter.com/Auf2098" class="item">
-            <i class="twitter icon"></i> Twitter</a>
+          <i class="twitter icon"></i> Twitter</a>
         <a href="https://www.instagram.com/ahmadauf2098/" class="item">
-            <i class="instagram icon"></i> Instagram</a>
+          <i class="instagram icon"></i> Instagram</a>
       </div>
     </div>
   </div>
+
   <!-- Content Section-->
   <div class="ui inverted vertical masthead center aligned segment" id="landing">
     <div class="two wide column">
@@ -45,7 +48,9 @@
         </h1>
         <h3>You can use this website to calculate your current semester (SGPA) grade point averages and cumulative
           (CGPA) grade point averages.</h3>
-        <a href="landingpage.php"><div class="ui huge green button">Explore Now <i class="right arrow icon"></i></div></a>
+        <a href="landingpage.php">
+          <div class="ui huge green button">Explore Now <i class="right arrow icon"></i></div>
+        </a>
       </div>
     </div>
   </div>

@@ -595,7 +595,7 @@ function test_input($data) {
             </tr>
             <tr>
               <td data-label="Letter">B+</td>
-              <td data-label="Grade Points">3.33/td>
+              <td data-label="Grade Points">3.33</td>
             </tr>
             <tr>
               <td data-label="Letter">B</td>
@@ -615,7 +615,7 @@ function test_input($data) {
             </tr>
             <tr>
             <td data-label="Letter">C-</td>
-            <td data-label="Grade Points">1.67/td>
+            <td data-label="Grade Points">1.67</td>
             </tr>
             <tr>
             <td data-label="Letter">D+</td>
