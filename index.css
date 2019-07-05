@@ -19,7 +19,7 @@ h3 {
 }
 
 #landing {
-  padding-top: 20%;
+  padding-top: 5%;
   width: 100%;
   padding-bottom: 18%;
   background: url(background.jpg);
@@ -72,6 +72,7 @@ table tr {
   #nav {
     padding-left: 45%;
     padding-right: 45%;
+    position: static;
   }
 
   #navl {
