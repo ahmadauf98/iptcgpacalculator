@@ -29,9 +29,9 @@
             <div class="menu">
                 <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
                     <i class="facebook icon"></i> Facebook</a>
-                <a href="https://twitter.com/Auf2098" class="item">
+                <a href="https://twitter.com/Auf2098" class="item" id="dropdown1">
                     <i class="twitter icon"></i> Twitter</a>
-                <a href="https://www.instagram.com/ahmadauf2098/" class="item">
+                <a href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
                     <i class="instagram icon"></i> Instagram</a>
             </div>
         </div>
@@ -47,7 +47,7 @@
                 <div style="font-size: 20px; margin-right: 30px;" id="navbar">
                     <i class="dropdown icon"></i> Public University
                 </div>
-                <div class="menu">
+                <div class="menu" id="menu">
                     <a href="umCalculator.php" style="color:black;" class="item"><img src="umicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Malaya</a>
@@ -75,7 +75,7 @@
                 <div style="font-size: 20px; margin-right: 30px;">
                     <i class="dropdown icon"></i> Private University
                 </div>
-                <div class="menu">
+                <div class="menu" id="menu">
                     <a href="utpCalculator.php" style="color:black;" class="item"><img src="utpicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Petronas</a>

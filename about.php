@@ -21,17 +21,17 @@
     <div class="item" id="imgLogo">
       <img src="Logo.png">
     </div>
-    <a href="index.php" class="item active" id="nav">Home</a>
-    <a href="about.php" class="item" id="nav">About</a>
+    <a href="index.php" class="item" id="nav">Home</a>
+    <a href="about.php" class="item active" id="nav">About</a>
     <div class="ui right floated inverted simple dropdown item" id="dropdown">
       Contact
       <i class="dropdown icon"></i>
       <div class="menu">
         <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
           <i class="facebook icon"></i> Facebook</a>
-        <a href="https://twitter.com/Auf2098" class="item">
+        <a href="https://twitter.com/Auf2098" class="item" id="dropdown1">
           <i class="twitter icon"></i> Twitter</a>
-        <a href="https://www.instagram.com/ahmadauf2098/" class="item">
+        <a href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
           <i class="instagram icon"></i> Instagram</a>
       </div>
     </div>

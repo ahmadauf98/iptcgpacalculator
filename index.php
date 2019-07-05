@@ -31,9 +31,9 @@
       <div class="menu">
         <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
           <i class="facebook icon"></i> Facebook</a>
-        <a href="https://twitter.com/Auf2098" class="item">
+        <a href="https://twitter.com/Auf2098" class="item" id="dropdown1">
           <i class="twitter icon"></i> Twitter</a>
-        <a href="https://www.instagram.com/ahmadauf2098/" class="item">
+        <a href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
           <i class="instagram icon"></i> Instagram</a>
       </div>
     </div>
@@ -46,8 +46,7 @@
         <h1 class="ui inverted header">
           CGPA CALCULATOR
         </h1>
-        <h3>You can use this website to calculate your current semester (SGPA) grade point averages and cumulative
-          (CGPA) grade point averages.</h3>
+        <h3>You can use this website to calculate your current semester grade point averages (SGPA) and cumulative grade point averages (CGPA).</h3>
         <a href="landingpage.php">
           <div class="ui huge green button">Explore Now <i class="right arrow icon"></i></div>
         </a>

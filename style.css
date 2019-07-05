@@ -48,9 +48,56 @@ table tr {
 }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     #logo {
       margin: 0% 60% 0% 35%;
+    }
+
+    #navbar {
+      display: block;
+      position: static;
+    }
+  
+    #imgLogo {
+      padding-left: 45%;
+      padding-right: 45%;
+    }
+  
+    #landing {
+      padding-top: 40%;
+      width: 100%;
+      padding-bottom: 18%;
+      background: url(background.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    #nav {
+      padding-left: 45%;
+      padding-right: 45%;
+    }
+  
+    #dropdown{
+      padding-left: 43%;
+      padding-right: 45%;
+    }
+
+    #dropdown1{
+      text-align: center;
+      padding-left: 41.5%;
+      padding-right: 45%;
+    }
+
+    #button{
+      display: block;
+      width: 100%;
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      margin-bottom: 5%;
     }
   }
 

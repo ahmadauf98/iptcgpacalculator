@@ -61,6 +61,7 @@ table tr {
 @media only screen and (max-width: 600px) {
   #navbar {
     display: block;
+    position: static;
   }
 
   #imgLogo {
@@ -69,7 +70,6 @@ table tr {
   }
 
   #landing {
-    margin-top: 20%;
     padding-top: 40%;
     width: 100%;
     padding-bottom: 18%;
@@ -79,15 +79,24 @@ table tr {
     background-size: cover;
   }
 
+  #menu{
+    margin-left: 16%;
+  }
+
   #nav {
     padding-left: 45%;
     padding-right: 45%;
-    position: static;
   }
 
   #navl {
-    padding-left: 0;
-    padding-right:0;
+      display: block;
+      width: 100%;
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      margin-bottom: 5%;
   }
 
   #dropdown{
@@ -95,4 +104,34 @@ table tr {
     padding-right: 45%;
   }
 
+  #dropdown1{
+    text-align: center;
+    padding-left: 41.5%;
+    padding-right: 45%;
+  }
+
+}
+
+@media only screen and (max-width: 411px) {
+  #menu{
+    margin-left: 14%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #menu{
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #menu{
+    margin-left: 2.5%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #menu{
+    margin-left: 2.5%;
+  }
 }

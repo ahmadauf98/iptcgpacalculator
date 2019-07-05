@@ -149,68 +149,70 @@ function test_input($data) {
   }
 
 ?>
-  <div class="ui inverted top fixed menu">
-    <div class="item">
+  <div class="ui inverted top fixed menu" id="navbar">
+    <div class="item" id="imgLogo">
       <img src="Logo.png">
     </div>
-    <a href="index.php" class="item">Home</a>
-    <div class="ui inverted simple dropdown item">
+    <a href="index.php" class="item" id="nav">Home</a>
+    <a href="about.php" class="item" id="nav">About</a>
+
+    <div class="ui inverted simple dropdown item" id="dropdown1">
       Public University
       <i class="dropdown icon"></i>
       <div class="menu">
-        <div class="item"><a href="umCalculator.php" style="color:black;"><img src="umicon.ico" alt="" height="20px"
+        <div class="item" id="dropdown1"><a href="umCalculator.php" style="color:black;"><img src="umicon.ico" alt="" height="20px"
               style="margin: 1px 3px 0 0">
             Universiti Malaya (UM)</a></div>
-        <div class="item"><a href="upmCalculator.php" style="color:black;"><img src="upmicon.ico" alt=""
+        <div class="item" id="dropdown1"><a href="upmCalculator.php" style="color:black;"><img src="upmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Putra Malaysia (UPM)</a></div>
-        <div class="item"><a href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico" alt=""
+        <div class="item" id="dropdown1"><a href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Teknologi Mara (UITM)</a></div>
-        <div class="item"><a href="utmCalculator.php" style="color:black;"><img src="utmicon.ico" alt=""
+        <div class="item" id="dropdown1"><a href="utmCalculator.php" style="color:black;"><img src="utmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Teknologi Malaysia (UTM)</a></div>
-        <div class="item"><a href="ukmCalculator.php" style="color:black;"><img src="ukmicon.ico" alt=""
+        <div class="item" id="dropdown1"><a href="ukmCalculator.php" style="color:black;"><img src="ukmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Kebangsaan Malaysia (UKM)</a></div>
-        <div class="item  active"><a href="uiaCalculator.php" style="color:black;"><img src="uiaicon.ico" alt=""
+        <div class="item active" id="dropdown1"><a href="uiaCalculator.php" style="color:black;"><img src="uiaicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Islam Antarabangsa Malaysia (UIAM)</a></div>
-        <div class="item"><a href="usmCalculator.php" style="color:black;"><img src="usmicon.ico" alt=""
+        <div class="item" id="dropdown1"><a href="usmCalculator.php" style="color:black;"><img src="usmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Sains Malaysia (USM)</a></div>
-
       </div>
+      
     </div>
-    <div class="ui inverted simple dropdown item">
+    <div class="ui inverted simple dropdown item" id="dropdown1">
       Private University
       <i class="dropdown icon"></i>
       <div class="menu">
-        <div class="item"><a href="utpCalculator.php" style="color:black;"><img src="utpicon.ico" alt=""
+        <div class="item" id="dropdown1"><a href="utpCalculator.php" style="color:black;"><img src="utpicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Petronas (UTP)</a></div>
-        <div class="item"><a href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico" alt=""
+        <div class="item" id="dropdown1"><a href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Kuala Lumpur (Unikl)</a></div>
-        <div class="item"><a href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
+        <div class="item" id="dropdown1"><a href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico" alt=""
+              height="20px" style="margin: 1px 3px 0 0" >
             Taylor's University </a></div>
-            <div class="item"><a href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico" alt=""
+            <div class="item" id="dropdown1"><a href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Tenaga Nasional (Uniten)</a></div>
 
-
       </div>
     </div>
-    <div class="ui right floated inverted simple dropdown item">
+
+    <div class="ui right floated inverted simple dropdown item" id="dropdown">
       Contact
       <i class="dropdown icon"></i>
       <div class="menu">
-        <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item">
+        <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
           <i class="facebook icon"></i> Facebook</a>
-        <a href="https://twitter.com/Auf2098" class="item">
+        <a href="https://twitter.com/Auf2098" class="item" id="dropdown1">
           <i class="twitter icon"></i> Twitter</a>
-        <a href="https://www.instagram.com/ahmadauf2098/" class="item">
+        <a href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
           <i class="instagram icon"></i> Instagram</a>
       </div>
     </div>
@@ -528,8 +530,8 @@ function test_input($data) {
           </div>
 
         </div>
-        <input class="ui green submit button" type="submit" name="submit" value="Calculate" />
-        <input class="ui grey submit button" type="submit" name="reset" value="Reset" onclick="clearForm()" />
+        <input class="ui green submit button" id="button" type="submit" name="submit" value="Calculate" />
+        <input class="ui grey submit button" id="button" type="submit" name="reset" value="Reset" onclick="clearForm()" />
       </form>
 
       <?php
@@ -542,7 +544,7 @@ function test_input($data) {
     echo "This Semester:"."<br>";
     echo "Total Credits: ".$totalCredit."<br>";
     echo "Total Grade Points: ".$totalGradePoints."<br>";
-    echo "This Semester GPA: ".$sgpa;
+    echo "This Semester GPA: ".(round($sgpa,2));
   } else {
     echo "<b>Results:</b>"."<br><br>";
 
@@ -555,7 +557,7 @@ function test_input($data) {
     echo "This Semester:"."<br>";
     echo "Credits: ".$totalCredit."<br>";
     echo "Grade Points: ".$totalGradePoints."<br>";
-    echo "This Semester GPA: ".$sgpa."<br><br>";
+    echo "This Semester GPA: ".(round($sgpa,2))."<br><br>";
 
     echo "Total:"."<br>";
     echo "Total Credits: ".$ttcredit."<br>";
