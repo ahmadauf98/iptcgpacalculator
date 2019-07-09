@@ -48,8 +48,31 @@
         </h1>
         <h3>You can use this website to calculate your current semester grade point averages (SGPA) and cumulative grade point averages (CGPA).</h3>
         <a href="landingpage.php">
-          <div class="ui huge green button">Explore Now <i class="right arrow icon"></i></div>
+          <div class="ui massive green button">Explore Now<i class="right arrow icon"></i></div>
         </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui vertical stripe quote segment" id="feature">
+    <div class="ui equal width stackable internally celled grid">
+      <div class="center aligned row">
+
+        <div class="column">
+          <h2>"New Features!"</h2>
+          <p>Want to set your grade target based on you carrymark?</p>
+          <a href="landingpage1.php">
+          <div class="ui big green button">Check Them Out</div>
+        </a>
+        </div>
+
+        <div class="column">
+          <h2>"AA Dev Website"</h2>
+          <p>Let figure out My Website.</p>
+          <a href="https://ahmadauf98.github.io">
+          <div class="ui big green button">Click Here</div>
+        </a>
+        </div>
       </div>
     </div>
   </div>

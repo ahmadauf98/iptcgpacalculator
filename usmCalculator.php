@@ -154,7 +154,7 @@ function test_input($data) {
       <img src="Logo.png">
     </div>
     <a href="index.php" class="item" id="nav">Home</a>
-    <a href="about.php" class="item" id="nav">About</a>
+    <a href="landingpage1.php" class="item" id="nav">Grade</a>
 
     <div class="ui inverted simple dropdown item" id="dropdown1">
       Public University
@@ -580,56 +580,69 @@ function test_input($data) {
           <thead>
             <tr>
               <th>Letter</th>
+              <th>Marks</th>
               <th>Grade Point</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td data-label="Letter">A</td>
+              <td data-label="Marks">80-100</td>
               <td data-label="Grade Points">4.00</td>
             </tr>
             <tr>
               <td data-label="Letter">A-</td>
+              <td data-label="Marks">70-79</td>
               <td data-label="Grade Points">3.67</td>
             </tr>
             <tr>
               <td data-label="Letter">B+</td>
+              <td data-label="Marks">64-69</td>
               <td data-label="Grade Points">3.33</td>
             </tr>
             <tr>
               <td data-label="Letter">B</td>
+              <td data-label="Marks">58-63</td>
               <td data-label="Grade Points">3.00</td>
             </tr>
             <tr>
               <td data-label="Letter">B-</td>
+              <td data-label="Marks">52-57</td>
               <td data-label="Grade Points">2.67</td>
             </tr>
             <tr>
             <td data-label="Letter">C+</td>
+            <td data-label="Marks">46-51</td>
             <td data-label="Grade Points">2.33</td>
             </tr>
             <tr>
             <td data-label="Letter">C</td>
+            <td data-label="Marks">40-45</td>
             <td data-label="Grade Points">2.00</td>
             </tr>
             <tr>
             <td data-label="Letter">C-</td>
+            <td data-label="Marks">36-39</td>
             <td data-label="Grade Points">1.67</td>
             </tr>
             <tr>
             <td data-label="Letter">D+</td>
+            <td data-label="Marks">32-35</td>
             <td data-label="Grade Points">1.33</td>
             </tr>
             <tr>
             <td data-label="Letter">D</td>
+            <td data-label="Marks">28-31</td>
             <td data-label="Grade Points">1.00</td>
             </tr>
             <tr>
             <td data-label="Letter">D-</td>
+            <td data-label="Marks">25-27</td>
             <td data-label="Grade Points">0.67</td>
             </tr>
             <tr>
             <td data-label="Letter">F</td>
+            <td data-label="Marks">0-24</td>
             <td data-label="Grade Points">0.00</td>
             </tr>
           </tbody>
@@ -650,7 +663,7 @@ function test_input($data) {
           <h4 class="ui inverted header">Public University</h4>
           <div class="ui inverted link list">
             <a href="umCalculator.php" class="item">Universiti Malaya</a>
-            <a href="upmCalculator.php" class="item">Universiti Pertanian Malaysia</a>
+            <a href="upmCalculator.php" class="item">Universiti Putra Malaysia</a>
             <a href="uitmCalculator.php" class="item">Universiti Teknologi Mara</a>
             <a href="utmCalculator.php" class="item">Universiti Teknologi Malaysia</a>
             <a href="ukmCalculator.php" class="item">Universiti Kebangsaan Malaysia</a>

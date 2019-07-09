@@ -22,7 +22,7 @@
             <img src="Logo.png">
         </div>
         <a href="index.php" class="item" id="nav">Home</a>
-        <a href="landingpage1.php" class="item" id="nav">Grade</a>
+        <a href="landingpage.php" class="item" id="nav">Calculator</a>
         <div class="ui right floated inverted simple dropdown item" id="dropdown">
             Contact
             <i class="dropdown icon"></i>
@@ -40,7 +40,7 @@
     <!-- Content Section-->
     <div class="ui inverted vertical masthead center aligned segment" id="landing1">
         <div class="ui text container">
-            <h1>CGPA CALCULATOR</h1>
+            <h1>GRADE TARGET</h1>
             <h4 class="ui inverted header" style="font-size: 35px;"> Select University :
             </h4>
 
@@ -49,25 +49,25 @@
                     <i class="dropdown icon"></i> Public University
                 </div>
                 <div class="menu" id="menu">
-                    <a href="umCalculator.php" style="color:black;" class="item"><img src="umicon.ico" alt=""
+                    <a href="umGrade.php" style="color:black;" class="item"><img src="umicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Malaya</a>
-                    <a href="upmCalculator.php" style="color:black;" class="item"><img src="upmicon.ico" alt=""
+                    <a href="upmGrade.php" style="color:black;" class="item"><img src="upmicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Putra Malaysia</a>
-                    <a href="uitmCalculator.php" style="color:black;" class="item"><img src="uitmicon.ico" alt=""
+                    <a href="uitmGrade.php" style="color:black;" class="item"><img src="uitmicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Teknologi Mara</a>
-                    <a href="utmCalculator.php" style="color:black;" class="item"><img src="utmicon.ico" alt=""
+                    <a href="utmGrade.php" style="color:black;" class="item"><img src="utmicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Teknologi Malaysia</a>
-                    <a href="ukmCalculator.php" style="color:black;" class="item"><img src="ukmicon.ico" alt=""
+                    <a href="ukmGrade.php" style="color:black;" class="item"><img src="ukmicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Kebangsaan Malaysia</a>
-                    <a href="uiaCalculator.php" style="color:black;" class="item"><img src="uiaicon.ico" alt=""
+                    <a href="uiaGrade.php" style="color:black;" class="item"><img src="uiaicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Islam Antarabangsa</a>
-                    <a href="usmCalculator.php" style="color:black;" class="item"><img src="usmicon.ico" alt=""
+                    <a href="usmGrade.php" style="color:black;" class="item"><img src="usmicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Sains Malaysia</a>
                 </div>
@@ -77,16 +77,10 @@
                     <i class="dropdown icon"></i> Private University
                 </div>
                 <div class="menu" id="menu">
-                    <a href="utpCalculator.php" style="color:black;" class="item"><img src="utpicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Petronas</a>
-                    <a href="uniklCalculator.php" style="color:black;" class="item"><img src="uniklicon.ico" alt=""
+                    <a href="uniklGrade.php" style="color:black;" class="item"><img src="uniklicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Kuala Lumpur</a>
-                    <a href="taylorCalculator.php" style="color:black;" class="item"><img src="taylorsicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
-                        Taylors University </a>
-                    <a href="uniklCalculator.php" style="color:black;" class="item"><img src="unitenicon.ico" alt=""
+                    <a href="uniklGrade.php" style="color:black;" class="item"><img src="unitenicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Tenaga Nasional</a>
                 </div>

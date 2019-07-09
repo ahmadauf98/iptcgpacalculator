@@ -58,6 +58,10 @@ table tr {
   margin-left: 12%;
 }
 
+#feature{
+background-color: #242424;
+}
+
 @media only screen and (max-width: 600px) {
   #navbar {
     display: block;

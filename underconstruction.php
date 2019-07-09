@@ -22,52 +22,6 @@
       <img src="Logo.png">
     </div>
     <a href="index.php" class="item">Home</a>
-    <div class="ui inverted simple dropdown item">
-      Public University
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <div class="item"><a href="umCalculator.php" style="color:black;"><img src="umicon.ico" alt="" height="20px"
-              style="margin: 1px 3px 0 0">
-            Universiti Malaya (UM)</a></div>
-        <div class="item"><a href="upmCalculator.php" style="color:black;"><img src="upmicon.ico" alt="" height="20px"
-              style="margin: 1px 3px 0 0">
-            Universiti Putra Malaysia (UPM)</a></div>
-        <div class="item"><a href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico" alt="" height="20px"
-              style="margin: 1px 3px 0 0">
-            Universiti Teknologi Mara (UITM)</a></div>
-        <div class="item"><a href="utmCalculator.php" style="color:black;"><img src="utmicon.ico" alt="" height="20px"
-              style="margin: 1px 3px 0 0">
-            Universiti Teknologi Malaysia (UTM)</a></div>
-        <div class="item"><a href="ukmCalculator.php" style="color:black;"><img src="ukmicon.ico" alt="" height="20px"
-              style="margin: 1px 3px 0 0">
-            Universiti Kebangsaan Malaysia (UKM)</a></div>
-        <div class="item"><a href="uiaCalculator.php" style="color:black;"><img src="uiaicon.ico" alt="" height="20px"
-              style="margin: 1px 3px 0 0">
-            Universiti Islam Antarabangsa Malaysia (UIAM)</a></div>
-        <div class="item"><a href="usmCalculator.php" style="color:black;"><img src="usmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Sains Malaysia (USM)</a></div>
-
-      </div>
-    </div>
-    <div class="ui inverted simple dropdown item">
-      Private University
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <div class="item"><a href="utpCalculator.php" style="color:black;"><img src="utpicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Petronas (UTP)</a></div>
-        <div class="item"><a href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Kuala Lumpur (Unikl)</a></div>
-        <div class="item"><a href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Taylors University </a></div>
-        <div class="item"><a href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Tenaga Nasional (Uniten)</a></div>
-      </div>
-    </div>
     <div class="ui right floated inverted simple dropdown item">
       Contact Us
       <i class="dropdown icon"></i>
@@ -96,22 +50,22 @@
         <div class="three wide column">
           <h4 class="ui inverted header">Public University</h4>
           <div class="ui inverted link list">
-            <a href="umCalculator.php" class="item">Universiti Malaya</a>
-            <a href="upmCalculator.php" class="item">Universiti Pertanian Malaysia</a>
-            <a href="uitmCalculator.php" class="item">Universiti Teknologi Mara</a>
-            <a href="utmCalculator.php" class="item">Universiti Teknologi Malaysia</a>
-            <a href="ukmCalculator.php" class="item">Universiti Kebangsaan Malaysia</a>
-            <a href="uiamCalculator.php" class="item">Universiti Islam Antarabangsa Malaysia</a>
-            <a href="usmCalculator.php" class="item">Universiti Sains Malaysia</a>
+            <a href="#" class="item">Universiti Malaya</a>
+            <a href="#" class="item">Universiti Pertanian Malaysia</a>
+            <a href="#" class="item">Universiti Teknologi Mara</a>
+            <a href="#" class="item">Universiti Teknologi Malaysia</a>
+            <a href="#" class="item">Universiti Kebangsaan Malaysia</a>
+            <a href="#" class="item">Universiti Islam Antarabangsa Malaysia</a>
+            <a href="#" class="item">Universiti Sains Malaysia</a>
           </div>
         </div>
         <div class="three wide column">
           <h4 class="ui inverted header">Private University</h4>
           <div class="ui inverted link list">
-            <a href="utpCalculator.php" class="item">Universiti Teknologi Petronas</a>
-            <a href="uniklCalculator.php" class="item">Universiti Kuala Lumpur</a>
-            <a href="taylorCalculator.php" class="item">Taylors University</a>
-            <a href="unitenCalculator.php" class="item">Universiti Tenaga Nasional</a>
+            <a href="#" class="item">Universiti Teknologi Petronas</a>
+            <a href="#" class="item">Universiti Kuala Lumpur</a>
+            <a href="#" class="item">Taylors University</a>
+            <a href="#" class="item">Universiti Tenaga Nasional</a>
           </div>
         </div>
         <div class="three wide column">

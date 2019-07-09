@@ -140,7 +140,6 @@ function clearForm()
     document.querySelector('#ch8').value=""; 
 }
 
-
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 

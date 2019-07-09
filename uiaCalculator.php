@@ -154,7 +154,7 @@ function test_input($data) {
       <img src="Logo.png">
     </div>
     <a href="index.php" class="item" id="nav">Home</a>
-    <a href="about.php" class="item" id="nav">About</a>
+    <a href="landingpage1.php" class="item" id="nav">Grade</a>
 
     <div class="ui inverted simple dropdown item" id="dropdown1">
       Public University
@@ -650,7 +650,7 @@ function test_input($data) {
           <h4 class="ui inverted header">Public University</h4>
           <div class="ui inverted link list">
             <a href="umCalculator.php" class="item">Universiti Malaya</a>
-            <a href="upmCalculator.php" class="item">Universiti Pertanian Malaysia</a>
+            <a href="upmCalculator.php" class="item">Universiti Putra Malaysia</a>
             <a href="uitmCalculator.php" class="item">Universiti Teknologi Mara</a>
             <a href="utmCalculator.php" class="item">Universiti Teknologi Malaysia</a>
             <a href="ukmCalculator.php" class="item">Universiti Kebangsaan Malaysia</a>
