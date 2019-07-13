@@ -27,7 +27,7 @@ table tr {
   text-align: center;
 }
 
-#sharebutton{
+#shareButton{
   margin-top: 5%;
 }
 
@@ -116,7 +116,7 @@ table tr {
       margin-bottom: 5%;
     }
 
-    #sharebutton{
+    #shareButton{
       margin-top: 10%;
     }
   }
