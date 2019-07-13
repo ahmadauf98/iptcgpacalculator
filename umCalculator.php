@@ -14,13 +14,15 @@
   <script type="text/javascript"
     src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
   <link rel="stylesheet" href="style.css">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-5649677793317740",
-      enable_page_level_ads: true
-    });
-  </script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143688410-1');
+</script>
 </head>
 
 <body>
@@ -227,7 +229,7 @@ function test_input($data) {
     </div>
     <div class="two wide column">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- cgpacalculator -->
+      <!-- ads1 -->
       <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740" data-ad-slot="9035428983"
         data-ad-format="auto" data-full-width-responsive="true"></ins>
       <script>
@@ -657,13 +659,51 @@ function test_input($data) {
           </tbody>
         </table>
         <div>
-          <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
+          <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- ads3 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740"
+              data-ad-slot="7172038196" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+          <div class="ui centered grid ui container" id="shareButton">
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com/umCalculator.php"><button
+                id="button1" class="ui facebook button">
+                <i class="facebook icon"></i>
+                Share
+              </button></a>
+            <a
+              href="https://twitter.com/intent/tweet?text=Hello guys, check this out: https://iptcgpacalculator.herokuapp.com/umCalculator.php"><button
+                id="button1" class="ui twitter button">
+                <i class="twitter icon"></i>
+                Tweet
+              </button></a>
+            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com/umCalculator.php"><button
+                id="button1" class="ui youtube button">
+                <i class="reddit icon"></i>
+                Share
+              </button></a>
+            <a
+              href="https://wa.me/whatsappphonenumber/?text=Hello guys, check this out: https://iptcgpacalculator.herokuapp.com/umCalculator.php"><button
+                id="button1" class="ui whatsapp button" style="background: green; color:white;">
+                <i class="whatsapp icon"></i>
+                Share
+              </button></a>
+            <a href="https://www.linkedin.com/cws/share?url=https://iptcgpacalculator.herokuapp.com/umCalculator.php"><button
+                id="button1" class="ui linkedin button">
+                <i class="linkedin icon"></i>
+                Share
+              </button></a>
+          </div>
         </div>
       </div>
     </div>
     <div class="two wide column">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- advertisement2 -->
+      <!-- ads2 -->
       <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740" data-ad-slot="8185381746"
         data-ad-format="auto" data-full-width-responsive="true"></ins>
       <script>
