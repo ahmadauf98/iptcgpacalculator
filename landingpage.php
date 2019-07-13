@@ -50,6 +50,7 @@
     <div class="ui inverted vertical masthead center aligned segment" id="landing1">
         <div class="ui text container">
             <h1>CGPA CALCULATOR</h1>
+            <p>REMINDER: To IOS user, please use chrome browser. Thank You!</p>
             <h4 class="ui inverted header" style="font-size: 35px;"> Select University :
             </h4>
 
@@ -100,7 +101,7 @@
                         Universiti Tenaga Nasional</a>
                 </div>
             </div>
-
+            
         </div>
     </div>
 
