@@ -15,12 +15,12 @@
     src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-5649677793317740",
-          enable_page_level_ads: true
-     });
-</script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-5649677793317740",
+      enable_page_level_ads: true
+    });
+  </script>
 </head>
 
 <body>
@@ -149,7 +149,7 @@ function test_input($data) {
   }
 
 ?>
-   <div class="ui inverted top fixed menu" id="navbar">
+  <div class="ui inverted top fixed menu" id="navbar">
     <div class="item" id="imgLogo">
       <img src="Logo.png">
     </div>
@@ -160,14 +160,14 @@ function test_input($data) {
       Public University
       <i class="dropdown icon"></i>
       <div class="menu">
-        <div class="item active" id="dropdown1"><a href="umCalculator.php" style="color:black;"><img src="umicon.ico" alt="" height="20px"
-              style="margin: 1px 3px 0 0">
+        <div class="item active" id="dropdown1"><a href="umCalculator.php" style="color:black;"><img src="umicon.ico"
+              alt="" height="20px" style="margin: 1px 3px 0 0">
             Universiti Malaya (UM)</a></div>
         <div class="item" id="dropdown1"><a href="upmCalculator.php" style="color:black;"><img src="upmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Putra Malaysia (UPM)</a></div>
-        <div class="item" id="dropdown1"><a href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
+        <div class="item" id="dropdown1"><a href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico"
+              alt="" height="20px" style="margin: 1px 3px 0 0">
             Universiti Teknologi Mara (UITM)</a></div>
         <div class="item" id="dropdown1"><a href="utmCalculator.php" style="color:black;"><img src="utmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
@@ -182,7 +182,7 @@ function test_input($data) {
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Sains Malaysia (USM)</a></div>
       </div>
-      
+
     </div>
     <div class="ui inverted simple dropdown item" id="dropdown1">
       Private University
@@ -191,14 +191,14 @@ function test_input($data) {
         <div class="item" id="dropdown1"><a href="utpCalculator.php" style="color:black;"><img src="utpicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
             Universiti Petronas (UTP)</a></div>
-        <div class="item" id="dropdown1"><a href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
+        <div class="item" id="dropdown1"><a href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico"
+              alt="" height="20px" style="margin: 1px 3px 0 0">
             Universiti Kuala Lumpur (Unikl)</a></div>
-        <div class="item" id="dropdown1"><a href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0" >
+        <div class="item" id="dropdown1"><a href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico"
+              alt="" height="20px" style="margin: 1px 3px 0 0">
             Taylor's University </a></div>
-            <div class="item" id="dropdown1"><a href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
+        <div class="item" id="dropdown1"><a href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico"
+              alt="" height="20px" style="margin: 1px 3px 0 0">
             Universiti Tenaga Nasional (Uniten)</a></div>
 
       </div>
@@ -217,7 +217,7 @@ function test_input($data) {
       </div>
     </div>
   </div>
-  
+
   <!-- Content-->
   <div class="ui inverted grid ui container">
     <div class="sixteen wide column">
@@ -226,6 +226,13 @@ function test_input($data) {
       <h1>CGPA Calculator (Universiti Malaya)</h1>
     </div>
     <div class="two wide column">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- cgpacalculator -->
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740" data-ad-slot="9035428983"
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
     </div>
     <div class="twelve wide column">
       <form class="ui inverted form segment" id="Form" method="post"
@@ -540,7 +547,8 @@ function test_input($data) {
 
         </div>
         <input class="ui green submit button" id="button" type="submit" name="submit" value="Calculate" />
-        <input class="ui grey submit button" id="button" type="submit" name="reset" value="Reset" onclick="clearForm()" />
+        <input class="ui grey submit button" id="button" type="submit" name="reset" value="Reset"
+          onclick="clearForm()" />
       </form>
 
       <?php
@@ -617,42 +625,51 @@ function test_input($data) {
               <td data-label="Grade Points">2.70</td>
             </tr>
             <tr>
-            <td data-label="Letter">C+</td>
-            <td data-label="Marks">55-59</td>
-            <td data-label="Grade Points">2.30</td>
+              <td data-label="Letter">C+</td>
+              <td data-label="Marks">55-59</td>
+              <td data-label="Grade Points">2.30</td>
             </tr>
             <tr>
-            <td data-label="Letter">C</td>
-            <td data-label="Marks">50-54</td>
-            <td data-label="Grade Points">2.00</td>
+              <td data-label="Letter">C</td>
+              <td data-label="Marks">50-54</td>
+              <td data-label="Grade Points">2.00</td>
             </tr>
             <tr>
-            <td data-label="Letter">C-</td>
-            <td data-label="Marks">45-49</td>
-            <td data-label="Grade Points">1.70</td>
+              <td data-label="Letter">C-</td>
+              <td data-label="Marks">45-49</td>
+              <td data-label="Grade Points">1.70</td>
             </tr>
             <tr>
-            <td data-label="Letter">D+</td>
-            <td data-label="Marks">40-44</td>
-            <td data-label="Grade Points">1.30</td>
+              <td data-label="Letter">D+</td>
+              <td data-label="Marks">40-44</td>
+              <td data-label="Grade Points">1.30</td>
             </tr>
             <tr>
-            <td data-label="Letter">D</td>
-            <td data-label="Marks">35-39</td>
-            <td data-label="Grade Points">1.00</td>
+              <td data-label="Letter">D</td>
+              <td data-label="Marks">35-39</td>
+              <td data-label="Grade Points">1.00</td>
             </tr>
             <tr>
-            <td data-label="Letter">F</td>
-            <td data-label="Marks">0-34</td>
-            <td data-label="Grade Points">0.00</td>
+              <td data-label="Letter">F</td>
+              <td data-label="Marks">0-34</td>
+              <td data-label="Grade Points">0.00</td>
             </tr>
           </tbody>
-        </table><div>
-        <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
+        </table>
+        <div>
+          <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
         </div>
       </div>
     </div>
-    <div class="two wide column"></div>
+    <div class="two wide column">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- advertisement2 -->
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740" data-ad-slot="8185381746"
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
   </div>
 
 
