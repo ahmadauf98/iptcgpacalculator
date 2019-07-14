@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="uplogo.png" type="image/x-icon">
   <link rel="shortcut icon" href="uplogo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
@@ -53,68 +55,97 @@ function test_input($data) {
   }
 
 ?>
-  <div class="ui inverted top fixed menu" id="navbar">
-    <div class="item" id="imgLogo">
-      <img src="Logo.png">
-    </div>
-    <a href="index.php" class="item" id="nav">Home</a>
-    <a href="landingpage.php" class="item" id="dropdown">Calculator</a>
 
-    <div class="ui inverted simple dropdown item" id="dropdown1">
-      Public University
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <div class="item" id="dropdown1"><a href="umGrade.php" style="color:black;"><img src="umicon.ico" alt=""
+   <!-- Navigation Bar Section-->
+  <!-- Bootstrap 4 Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E;">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="Logo.png" width="auto" height="30" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="text-align:center;">
+          <li class="nav-item">
+            <a class="nav-link" href="index.php" class="item">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="landingpage.php" class="item">Calculator</a>
+          </li>
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Public University
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="umGrade.php" style="color:black;"><img src="umicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
-            Universiti Malaya (UM)</a></div>
-        <div class="item" id="dropdown1"><a href="upmGrade.php" style="color:black;"><img src="upmicon.ico" alt=""
+            Universiti Malaya (UM)</a>
+            <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="upmGrade.php" style="color:black;"><img src="upmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
-            Universiti Putra Malaysia (UPM)</a></div>
-        <div class="item" id="dropdown1"><a href="uitmGrade.php" style="color:black;"><img src="uitmicon.ico"
+            Universiti Putra Malaysia (UPM)</a>
+            <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="uitmGrade.php" style="color:black;"><img src="uitmicon.ico"
               alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Teknologi Mara (UITM)</a></div>
-        <div class="item" id="dropdown1"><a href="utmGrade.php" style="color:black;"><img src="utmicon.ico" alt=""
+            Universiti Teknologi Mara (UITM)</a>
+            <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="utmGrade.php" style="color:black;"><img src="utmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
-            Universiti Teknologi Malaysia (UTM)</a></div>
-        <div class="item active" id="dropdown1"><a href="ukmGrade.php" style="color:black;"><img src="ukmicon.ico" alt=""
+            Universiti Teknologi Malaysia (UTM)</a>
+            <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="ukmGrade.php" style="color:black;"><img src="ukmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
-            Universiti Kebangsaan Malaysia (UKM)</a></div>
-        <div class="item" id="dropdown1"><a href="uiaGrade.php" style="color:black;"><img src="uiaicon.ico"
+            Universiti Kebangsaan Malaysia (UKM)</a>
+            <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="uiaGrade.php" style="color:black;"><img src="uiaicon.ico"
               alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Islam Antarabangsa Malaysia (UIAM)</a></div>
-        <div class="item" id="dropdown1"><a href="usmGrade.php" style="color:black;"><img src="usmicon.ico" alt=""
+            Universiti Islam Antarabangsa Malaysia (UIAM)</a>
+            <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="usmGrade.php" style="color:black;"><img src="usmicon.ico" alt=""
               height="20px" style="margin: 1px 3px 0 0">
-            Universiti Sains Malaysia (USM)</a></div>
+            Universiti Sains Malaysia (USM)</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Private University
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="uniklGrade.php" style="color:black;"><img src="uniklicon.ico"
+              alt="" height="20px" style="margin: 1px 3px 0 0">
+            Universiti Kuala Lumpur (Unikl)</a>
+            <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="unitenGrade.php" style="color:black;"><img src="unitenicon.ico"
+              alt="" height="20px" style="margin: 1px 3px 0 0">
+            Universiti Tenaga Nasional (Uniten)</a>
+        </div>
+      </li>
+        </ul>
+        <ul class="navbar-nav my-2 my-lg-0" style="text-align:center;">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
+                <i class="facebook icon"></i> Facebook</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://twitter.com/Auf2098" class="item" id="dropdown1">
+                <i class="twitter icon"></i> Twitter</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
+                <i class="instagram icon"></i> Instagram</a>
+            </div>
+          </li>
+        </ul>
       </div>
-
     </div>
-    <div class="ui inverted simple dropdown item" id="dropdown1">
-      Private University
-      <i class="dropdown icon"></i>
-      <div class="menu">
-      <div class="item" id="dropdown1"><a href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Kuala Lumpur (Unikl)</a></div>
-        <div class="item" id="dropdown1"><a href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Tenaga Nasional (Uniten)</a></div>
-
-      </div>
-    </div>
-
-    <div class="ui right floated inverted simple dropdown item" id="dropdown">
-      Contact
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
-          <i class="facebook icon"></i> Facebook</a>
-        <a href="https://twitter.com/Auf2098" class="item" id="dropdown1">
-          <i class="twitter icon"></i> Twitter</a>
-        <a href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
-          <i class="instagram icon"></i> Instagram</a>
-      </div>
-    </div>
-  </div>
+  </nav>
 
   <div class="ui inverted grid ui container">
     <div class="sixteen wide column">
@@ -393,6 +424,17 @@ else{
   </div>
   <a href="#" id="scroll" style="display: none;"><span></span></a>
   <script src="js1.js"></script>
+
+  <!-- Bootstrap 4 JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

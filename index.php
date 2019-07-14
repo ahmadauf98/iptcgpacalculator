@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="uplogo.png" type="image/x-icon">
   <link rel="shortcut icon" href="uplogo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
@@ -15,39 +17,61 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="index.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-143688410-1');
-</script>
+    gtag('config', 'UA-143688410-1');
+  </script>
 
 </head>
 
 <body>
 
   <!-- Navigation Bar Section-->
-  <div class="ui inverted top fixed menu" id="navbar">
-    <div class="item" id="imgLogo">
-      <img src="Logo.png">
-    </div>
-    <a href="index.php" class="item active" id="nav">Home</a>
-    <a href="about.php" class="item" id="nav">About</a>
-    <div class="ui right floated inverted simple dropdown item" id="dropdown">
-      Contact
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
-          <i class="facebook icon"></i> Facebook</a>
-        <a href="https://twitter.com/Auf2098" class="item" id="dropdown1">
-          <i class="twitter icon"></i> Twitter</a>
-        <a href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
-          <i class="instagram icon"></i> Instagram</a>
+  <!-- Bootstrap 4 Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E;">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="Logo.png" width="auto" height="30" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="text-align:center;">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php" class="item"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.php" class="item">About</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav my-2 my-lg-0" style="text-align:center;">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
+                <i class="facebook icon"></i> Facebook</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://twitter.com/Auf2098" class="item" id="dropdown1">
+                <i class="twitter icon"></i> Twitter</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
+                <i class="instagram icon"></i> Instagram</a>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
 
   <!-- Content Section-->
   <div class="ui inverted vertical masthead center aligned segment" id="landing">
@@ -56,7 +80,8 @@
         <h1 class="ui inverted header">
           CGPA CALCULATOR
         </h1>
-        <h3>You can use this website to calculate your current semester grade point averages (SGPA) and cumulative grade point averages (CGPA).</h3>
+        <h3>You can use this website to calculate your current semester grade point averages (SGPA) and cumulative grade
+          point averages (CGPA).</h3>
         <a href="landingpage.php">
           <div class="ui massive green button">Explore Now<i class="right arrow icon"></i></div>
         </a>
@@ -72,16 +97,16 @@
           <h2>"New Features!"</h2>
           <p>Want to set your grade target based on you carrymark?</p>
           <a href="landingpage1.php">
-          <div class="ui big green button">Check Them Out</div>
-        </a>
+            <div class="ui big green button">Check Them Out</div>
+          </a>
         </div>
 
         <div class="column">
           <h2>"AA Dev Website"</h2>
           <p>Let figure out My Website.</p>
           <a href="https://ahmadauf98.github.io">
-          <div class="ui big green button">Click Here</div>
-        </a>
+            <div class="ui big green button">Click Here</div>
+          </a>
         </div>
       </div>
     </div>
@@ -106,6 +131,17 @@
       </div>
     </div>
   </div>
+
+   <!-- Bootstrap 4 JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

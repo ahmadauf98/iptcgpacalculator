@@ -7,44 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="uplogo.png" type="image/x-icon">
     <link rel="shortcut icon" href="uplogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
     <script type="text/javascript"
         src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
     <link rel="stylesheet" href="index.css">
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-143688410-1');
-</script>
+        gtag('config', 'UA-143688410-1');
+    </script>
 </head>
 
 <body>
     <!-- Navigation Bar Section-->
-    <div class="ui inverted top fixed menu" id="navbar">
-        <div class="item" id="imgLogo">
-            <img src="Logo.png">
-        </div>
-        <a href="index.php" class="item" id="nav">Home</a>
-        <a href="landingpage.php" class="item" id="nav">Calculator</a>
-        <div class="ui right floated inverted simple dropdown item" id="dropdown">
-            Contact
-            <i class="dropdown icon"></i>
-            <div class="menu">
-                <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
-                    <i class="facebook icon"></i> Facebook</a>
-                <a href="https://twitter.com/Auf2098" class="item" id="dropdown1">
-                    <i class="twitter icon"></i> Twitter</a>
-                <a href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
-                    <i class="instagram icon"></i> Instagram</a>
+    <!-- Bootstrap 4 Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E; color:white;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Logo.png" width="auto" height="30" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" style="text-align:center;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php" class="item">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landingpage.php" class="item">Calculator</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="landingpage1.php" class="item"><b>Grade</b></a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav my-2 my-lg-0" style="text-align:center;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Contact
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://www.facebook.com/ahmadauf.nasruddin" class="item"
+                                id="dropdown1">
+                                <i class="facebook icon"></i> Facebook</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://twitter.com/Auf2098" class="item" id="dropdown1">
+                                <i class="twitter icon"></i> Twitter</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://www.instagram.com/ahmadauf2098/" class="item"
+                                id="dropdown1">
+                                <i class="instagram icon"></i> Instagram</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
 
     <!-- Content Section-->
     <div class="ui inverted vertical masthead center aligned segment" id="landing1">
@@ -55,35 +85,37 @@
             </h4>
 
             <div class="ui simple dropdown item" id="navl">
-                <div style="font-size: 20px; margin-right: 30px; padding:5px 8px; border: solid 2px white; border-radius:5%;" id="navbar">
+                <div style="font-size: 20px; margin-right: 30px; padding:5px 8px; border: solid 2px white; border-radius:5%;"
+                    id="navbar">
                     <i class="dropdown icon"></i> Public University
                 </div>
                 <div class="menu" id="menu">
-                    <a href="umGrade.php" style="color:black;" class="item"><img src="umicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
+                    <a href="umGrade.php" style="color:black;" class="item"><img src="umicon.ico" alt="" height="20px"
+                            style="margin: 1px 3px 0 0">
                         Universiti Malaya</a>
-                    <a href="upmGrade.php" style="color:black;" class="item"><img src="upmicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
+                    <a href="upmGrade.php" style="color:black;" class="item"><img src="upmicon.ico" alt="" height="20px"
+                            style="margin: 1px 3px 0 0">
                         Universiti Putra Malaysia</a>
                     <a href="uitmGrade.php" style="color:black;" class="item"><img src="uitmicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Teknologi Mara</a>
-                    <a href="utmGrade.php" style="color:black;" class="item"><img src="utmicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
+                    <a href="utmGrade.php" style="color:black;" class="item"><img src="utmicon.ico" alt="" height="20px"
+                            style="margin: 1px 3px 0 0">
                         Universiti Teknologi Malaysia</a>
-                    <a href="ukmGrade.php" style="color:black;" class="item"><img src="ukmicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
+                    <a href="ukmGrade.php" style="color:black;" class="item"><img src="ukmicon.ico" alt="" height="20px"
+                            style="margin: 1px 3px 0 0">
                         Universiti Kebangsaan Malaysia</a>
-                    <a href="uiaGrade.php" style="color:black;" class="item"><img src="uiaicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
+                    <a href="uiaGrade.php" style="color:black;" class="item"><img src="uiaicon.ico" alt="" height="20px"
+                            style="margin: 1px 3px 0 0">
                         Universiti Islam Antarabangsa</a>
-                    <a href="usmGrade.php" style="color:black;" class="item"><img src="usmicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
+                    <a href="usmGrade.php" style="color:black;" class="item"><img src="usmicon.ico" alt="" height="20px"
+                            style="margin: 1px 3px 0 0">
                         Universiti Sains Malaysia</a>
                 </div>
             </div>
             <div class="ui simple dropdown item" id="navl">
-                <div style="font-size: 20px; margin-right: 30px; padding:5px 8px; border: solid 2px white; border-radius:5%;">
+                <div
+                    style="font-size: 20px; margin-right: 30px; padding:5px 8px; border: solid 2px white; border-radius:5%;">
                     <i class="dropdown icon"></i> Private University
                 </div>
                 <div class="menu" id="menu">
@@ -95,8 +127,6 @@
                         Universiti Tenaga Nasional</a>
                 </div>
             </div>
-
-            
 
         </div>
     </div>
@@ -121,6 +151,17 @@
             </div>
         </div>
     </div>
+
+    <!-- Bootstrap 4 JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
