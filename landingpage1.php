@@ -29,7 +29,7 @@
 <body>
     <!-- Navigation Bar Section-->
     <!-- Bootstrap 4 Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E; color:white;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E;">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="Logo.png" width="auto" height="30" alt="">
@@ -50,7 +50,6 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="landingpage1.php" class="item"><b>Grade</b></a>
                     </li>
-
                 </ul>
                 <ul class="navbar-nav my-2 my-lg-0" style="text-align:center;">
                     <li class="nav-item dropdown">
@@ -84,47 +83,57 @@
             <h4 class="ui inverted header" style="font-size: 35px;"> Select University :
             </h4>
 
-            <div class="ui simple dropdown item" id="navl">
-                <div style="font-size: 20px; margin-right: 30px; padding:5px 8px; border: solid 2px white; border-radius:5%;"
-                    id="navbar">
-                    <i class="dropdown icon"></i> Public University
-                </div>
-                <div class="menu" id="menu">
-                    <a href="umGrade.php" style="color:black;" class="item"><img src="umicon.ico" alt="" height="20px"
-                            style="margin: 1px 3px 0 0">
-                        Universiti Malaya</a>
-                    <a href="upmGrade.php" style="color:black;" class="item"><img src="upmicon.ico" alt="" height="20px"
-                            style="margin: 1px 3px 0 0">
-                        Universiti Putra Malaysia</a>
-                    <a href="uitmGrade.php" style="color:black;" class="item"><img src="uitmicon.ico" alt=""
+            <div class="btn-group " role="group" aria-label="Button group with nested dropdown">
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Public University
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="umGrade.php" style="color:black;"><img src="umicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Teknologi Mara</a>
-                    <a href="utmGrade.php" style="color:black;" class="item"><img src="utmicon.ico" alt="" height="20px"
-                            style="margin: 1px 3px 0 0">
-                        Universiti Teknologi Malaysia</a>
-                    <a href="ukmGrade.php" style="color:black;" class="item"><img src="ukmicon.ico" alt="" height="20px"
-                            style="margin: 1px 3px 0 0">
-                        Universiti Kebangsaan Malaysia</a>
-                    <a href="uiaGrade.php" style="color:black;" class="item"><img src="uiaicon.ico" alt="" height="20px"
-                            style="margin: 1px 3px 0 0">
-                        Universiti Islam Antarabangsa</a>
-                    <a href="usmGrade.php" style="color:black;" class="item"><img src="usmicon.ico" alt="" height="20px"
-                            style="margin: 1px 3px 0 0">
-                        Universiti Sains Malaysia</a>
-                </div>
-            </div>
-            <div class="ui simple dropdown item" id="navl">
-                <div
-                    style="font-size: 20px; margin-right: 30px; padding:5px 8px; border: solid 2px white; border-radius:5%;">
-                    <i class="dropdown icon"></i> Private University
-                </div>
-                <div class="menu" id="menu">
-                    <a href="uniklGrade.php" style="color:black;" class="item"><img src="uniklicon.ico" alt=""
+                        Universiti Malaya (UM)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="upmGrade.php" style="color:black;"><img src="upmicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Kuala Lumpur</a>
-                    <a href="uniklGrade.php" style="color:black;" class="item"><img src="unitenicon.ico" alt=""
+                        Universiti Putra Malaysia (UPM)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="uitmGrade.php" style="color:black;"><img src="uitmicon.ico"
+                            alt="" height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Teknologi Mara (UITM)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="utmGrade.php" style="color:black;"><img src="utmicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Tenaga Nasional</a>
+                        Universiti Teknologi Malaysia (UTM)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="ukmGrade.php" style="color:black;"><img src="ukmicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Kebangsaan Malaysia (UKM)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="uiaGrade.php" style="color:black;"><img src="uiaicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Islam Antarabangsa (UIA)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="usmGrade.php" style="color:black;"><img src="usmicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Sains Malaysia (USM)</a>
+                    </div>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Private University
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="uniklGrade.php" style="color:black;"><img src="uniklicon.ico"
+                            alt="" height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Kuala Lumpur (Unikl)</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="unitenGrade.php" style="color:black;"><img src="unitenicon.ico"
+                            alt="" height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Tenaga Nasional (Uniten)</a>
+                    </div>
                 </div>
             </div>
 
