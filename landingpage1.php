@@ -24,6 +24,17 @@
 
         gtag('config', 'UA-143688410-1');
     </script>
+
+<style>
+    #btn-drop1{
+        margin-right:7%;
+    }
+
+    #btn-drop2{
+        transform: translate3d(-138px, 35px, 0px);
+    }
+    </style>
+</head>
 </head>
 
 <body>
@@ -88,7 +99,7 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Public University
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" id="btn-drop1">
                     <a class="dropdown-item" href="umGrade.php" style="color:black;"><img src="umicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Malaya (UM)</a>
@@ -120,11 +131,11 @@
                 </div>
 
                 <div class="btn-group" role="group">
-                    <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle"
+                    <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Private University
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop2" id="btn-drop2">
                     <a class="dropdown-item" href="uniklGrade.php" style="color:black;"><img src="uniklicon.ico"
                             alt="" height="20px" style="margin: 1px 3px 0 0">
                         Universiti Kuala Lumpur (Unikl)</a>

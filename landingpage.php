@@ -24,6 +24,16 @@
 
         gtag('config', 'UA-143688410-1');
     </script>
+
+    <style>
+        #btn-drop1 {
+            margin-right: 7%;
+        }
+
+        #btn-drop2 {
+            transform: translate3d(-138px, 35px, 0px);
+        }
+    </style>
 </head>
 
 <body>
@@ -88,58 +98,58 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Public University
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1"style="margin-right:7%;">
-                    <a class="dropdown-item" href="umCalculator.php" style="color:black;"><img src="umicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Malaya (UM)</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="upmCalculator.php" style="color:black;"><img src="upmicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Putra Malaysia (UPM)</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico"
-                            alt="" height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Teknologi Mara (UITM)</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="utmCalculator.php" style="color:black;"><img src="utmicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Teknologi Malaysia (UTM)</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="ukmCalculator.php" style="color:black;"><img src="ukmicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Kebangsaan Malaysia (UKM)</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="uiaCalculator.php" style="color:black;"><img src="uiaicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Islam Antarabangsa (UIA)</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="usmCalculator.php" style="color:black;"><img src="usmicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Sains Malaysia (USM)</a>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" id="btn-drop1">
+                        <a class="dropdown-item" href="umCalculator.php" style="color:black;"><img src="umicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Malaya (UM)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="upmCalculator.php" style="color:black;"><img src="upmicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Putra Malaysia (UPM)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Teknologi Mara (UITM)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="utmCalculator.php" style="color:black;"><img src="utmicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Teknologi Malaysia (UTM)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="ukmCalculator.php" style="color:black;"><img src="ukmicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Kebangsaan Malaysia (UKM)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="uiaCalculator.php" style="color:black;"><img src="uiaicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Islam Antarabangsa (UIA)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="usmCalculator.php" style="color:black;"><img src="usmicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Sains Malaysia (USM)</a>
                     </div>
                 </div>
 
                 <div class="btn-group" role="group">
-                    <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle"
+                    <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Private University
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="margin-right:13%;">
-                    <a class="dropdown-item" href="utpCalculator.php" style="color:black;"><img src="utpicon.ico" alt=""
-                            height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Petronas (UTP)</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico"
-                            alt="" height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Kuala Lumpur (Unikl)</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico"
-                            alt="" height="20px" style="margin: 1px 3px 0 0">
-                        Taylor's University </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico"
-                            alt="" height="20px" style="margin: 1px 3px 0 0">
-                        Universiti Tenaga Nasional (Uniten)</a>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop2" id="btn-drop2">
+                        <a class="dropdown-item" href="utpCalculator.php" style="color:black;"><img src="utpicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Petronas (UTP)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="uniklCalculator.php" style="color:black;"><img
+                                src="uniklicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Kuala Lumpur (Unikl)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="taylorCalculator.php" style="color:black;"><img
+                                src="taylorsicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Taylor's University </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="unitenCalculator.php" style="color:black;"><img
+                                src="unitenicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Tenaga Nasional (Uniten)</a>
                     </div>
                 </div>
             </div>
