@@ -96,9 +96,9 @@
 
             <div class="btn-group " role="group" aria-label="Button group with nested dropdown">
                 <div class="btn-group" role="group">
-                    <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle"
+                    <button id="btnGroupDrop1" type="button" class="btn btn-success btn-sm dropdown-toggle"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Public University
+                        <b>Public University</b>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" id="btn-drop1">
                     <a class="dropdown-item" href="umGrade.php" style="color:black;"><img src="umicon.ico" alt=""
@@ -132,9 +132,9 @@
                 </div>
 
                 <div class="btn-group" role="group">
-                    <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle"
+                    <button id="btnGroupDrop2" type="button" class="btn btn-success btn-sm dropdown-toggle"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Private University
+                        <b>Private University</b>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="btnGroupDrop2" id="btn-drop2">
                     <a class="dropdown-item" href="uniklGrade.php" style="color:black;"><img src="uniklicon.ico"

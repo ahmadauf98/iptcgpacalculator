@@ -73,7 +73,7 @@
           average (cgpa) and semester grade point average (gpa). It also help me to become a better website developer.
           Thank you for supporting my first project (own project).</p>
         <a href="index.php">
-          <div class="ui huge green button"><i class="left arrow icon"></i>Back Home</div>
+          <div class="ui big green button"><i class="left arrow icon"></i>Back Home</div>
         </a>
       </div>
     </div>
