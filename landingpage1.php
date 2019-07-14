@@ -31,6 +31,7 @@
     }
 
     #btn-drop2{
+        margin-right:7%;
         transform: translate3d(-138px, 35px, 0px);
     }
     </style>
