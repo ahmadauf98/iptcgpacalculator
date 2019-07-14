@@ -55,7 +55,7 @@
             </h4>
 
             <div class="ui simple dropdown item" id="navl">
-                <div style="font-size: 20px; margin-right: 30px;" id="navbar">
+                <div style="font-size: 20px; margin-right: 30px; padding:5px 8px; border: solid 2px white; border-radius:5%;" id="navbar">
                     <i class="dropdown icon"></i> Public University
                 </div>
                 <div class="menu" id="menu">
@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class="ui simple dropdown item" id="navl">
-                <div style="font-size: 20px; margin-right: 30px;">
+                <div style="font-size: 20px; margin-right: 30px; padding:5px 8px; border: solid 2px white; border-radius:5%;">
                     <i class="dropdown icon"></i> Private University
                 </div>
                 <div class="menu" id="menu">

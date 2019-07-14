@@ -624,6 +624,36 @@ function test_input($data) {
           </tbody>
         </table><div>
         <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
+        <div class="ui centered grid ui container" id="shareButton">
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
+                id="button1" class="ui facebook button">
+                <i class="facebook icon"></i>
+                Share
+              </button></a>
+            <a
+              href="https://twitter.com/intent/tweet?text=Hello guys, check this out: https://iptcgpacalculator.herokuapp.com"><button
+                id="button1" class="ui twitter button">
+                <i class="twitter icon"></i>
+                Tweet
+              </button></a>
+            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com"><button
+                id="button1" class="ui youtube button">
+                <i class="reddit icon"></i>
+                Share
+              </button></a>
+            <a
+              href="https://wa.me/whatsappphonenumber/?text=Hello guys, check this out: https://iptcgpacalculator.herokuapp.com"><button
+                id="button1" class="ui whatsapp button" style="background: green; color:white;">
+                <i class="whatsapp icon"></i>
+                Share
+              </button></a>
+            <a href="https://www.linkedin.com/cws/share?url=https://iptcgpacalculator.herokuapp.com"><button
+                id="button1" class="ui linkedin button">
+                <i class="linkedin icon"></i>
+                Share
+              </button></a>
+          </div>
         </div>
       </div>
     </div>
