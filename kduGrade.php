@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Subject Grade USM</title>
+  <title>Subject Grade KDU</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="uplogo.png" type="image/x-icon">
@@ -175,8 +175,8 @@ function test_input($data) {
   <div class="ui inverted grid ui container">
     <div class="sixteen wide column">
       <br>
-      <img id="logo" src="usmLogo.png" alt="" width="125px;">
-      <h1>Grade Target (Universiti Sains Malaysia)</h1>
+      <img id="logo" src="kduLogo.png" alt="" width="125px;">
+      <h1>Grade Target (KDU University)</h1>
     </div>
     <div class="two wide column">
     </div>
@@ -241,12 +241,10 @@ function test_input($data) {
               <select class="ui dropdown1" name="tg1">
                 <option value="">Select</option>
                 <option value="80" <?php if (isset($tg1) && $tg1=="80") echo "checked";?>>A</option>
-                <option value="70" <?php if (isset($tg1) && $tg1=="70") echo "checked";?>>A-</option>
-                <option value="64" <?php if (isset($tg1) && $tg1=="64") echo "checked";?>>B+</option>
-                <option value="58" <?php if (isset($tg1) && $tg1=="58") echo "checked";?>>B</option>
-                <option value="52" <?php if (isset($tg1) && $tg1=="52") echo "checked";?>>B-</option>
-                <option value="46" <?php if (isset($tg1) && $tg1=="46") echo "checked";?>>C+</option>
-                <option value="40" <?php if (isset($tg1) && $tg1=="40") echo "checked";?>>C</option>
+                <option value="70" <?php if (isset($tg1) && $tg1=="70") echo "checked";?>>B+</option>
+                <option value="65" <?php if (isset($tg1) && $tg1=="65") echo "checked";?>>B</option>
+                <option value="55" <?php if (isset($tg1) && $tg1=="55") echo "checked";?>>C+</option>
+                <option value="50" <?php if (isset($tg1) && $tg1=="50") echo "checked";?>>C</option>
               </select>
             </div>
 
@@ -266,18 +264,12 @@ if ($tg1 == 80) {
   $grade = 'A';
 }
 elseif ($tg1 == 70) {
-  $grade = 'A-';
-}
-elseif ($tg1 == 64) {
   $grade = 'B+';
 }
-elseif ($tg1 == 58) {
+elseif ($tg1 == 65) {
   $grade = 'B';
 }
-elseif ($tg1 == 52) {
-  $grade = 'B-';
-}
-elseif ($tg1 == 46) {
+elseif ($tg1 == 55) {
   $grade = 'C+';
 }
 else{
@@ -308,7 +300,7 @@ else{
  
 ?>
       <div id="course-info">
-        <h3>This grade conversion table is used at Universiti Sains Malaysia (USM)</h3>
+        <h3>This grade conversion table is used at KDU University</h3>
         
         <table class="ui inverted fixed single line celled table ">
           <thead>
@@ -325,34 +317,24 @@ else{
               <td data-label="Minimum Marks">80</td>
             </tr>
             <tr>
-              <td data-label="Letter">A-</td>
+              <td data-label="Letter">B+</td>
               <td data-label="Marks">70-79</td>
               <td data-label="Minimum Marks">70</td>
             </tr>
             <tr>
-              <td data-label="Letter">B+</td>
-              <td data-label="Marks">64-69</td>
-              <td data-label="Minimum Marks">64</td>
-            </tr>
-            <tr>
               <td data-label="Letter">B</td>
-              <td data-label="Marks">58-63</td>
-              <td data-label="Minimum Marks">58</td>
-            </tr>
-            <tr>
-              <td data-label="Letter">B-</td>
-              <td data-label="Marks">52-57</td>
-              <td data-label="Minimum Marks">52</td>
+              <td data-label="Marks">65-69</td>
+              <td data-label="Minimum Marks">65</td>
             </tr>
             <tr>
               <td data-label="Letter">C+</td>
-              <td data-label="Marks">46-51</td>
-              <td data-label="Minimum Marks">46</td>
+              <td data-label="Marks">55-64</td>
+              <td data-label="Minimum Marks">55</td>
             </tr>
             <tr>
             <td data-label="Letter">C</td>
-            <td data-label="Marks">40-45</td>
-            <td data-label="Minimum Marks">40</td>
+            <td data-label="Marks">50-54</td>
+            <td data-label="Minimum Marks">50</td>
             </tr>
           </tbody>
         </table>

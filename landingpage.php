@@ -127,6 +127,18 @@
                         <a class="dropdown-item" href="usmCalculator.php" style="color:black;"><img src="usmicon.ico"
                                 alt="" height="20px" style="margin: 1px 3px 0 0">
                             Universiti Sains Malaysia (USM)</a>
+                            <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="umpCalculator.php" style="color:black;"><img src="umpicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Malaysia Pahang (UMP)</a>
+                            <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="umkCalculator.php" style="color:black;"><img src="umkicon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Malaysia Kelantan (UMK)</a>
+                            <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="umtCalculator.php" style="color:black;"><img src="umticon.ico"
+                                alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Malaysia Terengganu (UMT)</a>
                     </div>
                 </div>
 
@@ -151,10 +163,18 @@
                         <a class="dropdown-item" href="unitenCalculator.php" style="color:black;"><img
                                 src="unitenicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
                             Universiti Tenaga Nasional (Uniten)</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="uniselCalculator.php" style="color:black;"><img
                                 src="uniselicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
                             Universiti Selangor (Unisel)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="kduCalculator.php" style="color:black;"><img
+                                src="kduicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
+                            KDU University</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="segiCalculator.php" style="color:black;"><img
+                                src="segiicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
+                            SEGI University</a>
                     </div>
                 </div>
             </div>

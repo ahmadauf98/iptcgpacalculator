@@ -9,22 +9,22 @@
   <link rel="icon" href="uplogo.png" type="image/x-icon">
   <link rel="shortcut icon" href="uplogo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
   <script type="text/javascript"
     src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
   <link rel="stylesheet" href="style.css">
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-143688410-1');
-</script>
+    gtag('config', 'UA-143688410-1');
+  </script>
 </head>
 
 <body>
@@ -76,57 +76,79 @@ function test_input($data) {
             <a class="nav-link" href="landingpage.php" class="item">Calculator</a>
           </li>
           <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Public University
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="umGrade.php" style="color:black;"><img src="umicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Malaya (UM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="upmGrade.php" style="color:black;"><img src="upmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Putra Malaysia (UPM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="uitmGrade.php" style="color:black;"><img src="uitmicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Teknologi Mara (UITM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="utmGrade.php" style="color:black;"><img src="utmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Teknologi Malaysia (UTM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="ukmGrade.php" style="color:black;"><img src="ukmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Kebangsaan Malaysia (UKM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="uiaGrade.php" style="color:black;"><img src="uiaicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Islam Antarabangsa Malaysia (UIAM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="usmGrade.php" style="color:black;"><img src="usmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Sains Malaysia (USM)</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Private University
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="uniklGrade.php" style="color:black;"><img src="uniklicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Kuala Lumpur (Unikl)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="unitenGrade.php" style="color:black;"><img src="unitenicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Tenaga Nasional (Uniten)</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="uniselGrade.php" style="color:black;"><img src="uniselicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Selangor (Unisel)</a>
-        </div>
-      </li>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Public University
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="umGrade.php" style="color:black;"><img src="umicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Malaya (UM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="upmGrade.php" style="color:black;"><img src="upmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Putra Malaysia (UPM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="uitmGrade.php" style="color:black;"><img src="uitmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Teknologi Mara (UITM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="utmGrade.php" style="color:black;"><img src="utmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Teknologi Malaysia (UTM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="ukmGrade.php" style="color:black;"><img src="ukmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Kebangsaan Malaysia (UKM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="uiaGrade.php" style="color:black;"><img src="uiaicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Islam Antarabangsa (UIA)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="usmGrade.php" style="color:black;"><img src="usmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Sains Malaysia (USM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="umpGrade.php" style="color:black;"><img src="umpicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Malaysia Pahang (UMP)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="umkGrade.php" style="color:black;"><img src="umkicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Malaysia Kelantan (UMK)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="umtGrade.php" style="color:black;"><img src="umticon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Malaysia Terengganu (UMT)</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Private University
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="uniklGrade.php" style="color:black;"><img src="uniklicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Kuala Lumpur (Unikl)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="unitenGrade.php" style="color:black;"><img src="unitenicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Tenaga Nasional (Uniten)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="uniselGrade.php" style="color:black;"><img src="uniselicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Selangor (Unisel)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="kduGrade.php" style="color:black;"><img src="kduicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                KDU University</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="segiGrade.php" style="color:black;"><img src="segiicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                SEGI University</a>
+            </div>
+          </li>
         </ul>
         <ul class="navbar-nav my-2 my-lg-0" style="text-align:center;">
           <li class="nav-item dropdown">
@@ -183,7 +205,8 @@ function test_input($data) {
 
         <div class="Carrymark">
           <h3>Carrymark</h3>
-          <p>P/s: If you are only get carrymark by grade, please assume your mark based on minimum mark in table below and Total Marks: 100.</p>
+          <p>P/s: If you are only get carrymark by grade, please assume your mark based on minimum mark in table below
+            and Total Marks: 100.</p>
           <div class="two fields">
 
             <div class="field">
@@ -291,7 +314,7 @@ else{
 ?>
       <div id="course-info">
         <h3>This grade conversion table is used at Universiti Teknologi Malaysia (UTM)</h3>
-        
+
         <table class="ui inverted fixed single line celled table ">
           <thead>
             <tr>
@@ -337,9 +360,9 @@ else{
               <td data-label="Minimum Marks">55</td>
             </tr>
             <tr>
-            <td data-label="Letter">C</td>
-            <td data-label="Marks">50-54</td>
-            <td data-label="Minimum Marks">50</td>
+              <td data-label="Letter">C</td>
+              <td data-label="Marks">50-54</td>
+              <td data-label="Minimum Marks">50</td>
             </tr>
           </tbody>
         </table>
@@ -347,8 +370,7 @@ else{
         <div>
           <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
           <div class="ui centered grid ui container" id="shareButton">
-            <a
-              href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
                 id="button1" class="ui facebook button">
                 <i class="facebook icon"></i>
                 Share
@@ -359,8 +381,8 @@ else{
                 <i class="twitter icon"></i>
                 Tweet
               </button></a>
-            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com"><button
-                id="button1" class="ui youtube button">
+            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com"><button id="button1"
+                class="ui youtube button">
                 <i class="reddit icon"></i>
                 Share
               </button></a>
@@ -395,16 +417,21 @@ else{
             <a href="uitmGrade.php" class="item">Universiti Teknologi Mara</a>
             <a href="utmGrade.php" class="item">Universiti Teknologi Malaysia</a>
             <a href="ukmGrade.php" class="item">Universiti Kebangsaan Malaysia</a>
-            <a href="uiamGrade.php" class="item">Universiti Islam Antarabangsa Malaysia</a>
+            <a href="uiaGrade.php" class="item">Universiti Islam Antarabangsa</a>
             <a href="usmGrade.php" class="item">Universiti Sains Malaysia</a>
+            <a href="umpGrade.php" class="item">Universiti Malaysia Pahang</a>
+            <a href="umkGrade.php" class="item">Universiti Malaysia Kelantan</a>
+            <a href="umtGrade.php" class="item">Universiti Malaysia Terengganu</a>
           </div>
         </div>
         <div class="three wide column">
           <h4 class="ui inverted header">Private University</h4>
           <div class="ui inverted link list">
-          <a href="uniklGrade.php" class="item">Universiti Kuala Lumpur</a>
+            <a href="uniklGrade.php" class="item">Universiti Kuala Lumpur</a>
             <a href="unitenGrade.php" class="item">Universiti Tenaga Nasional</a>
             <a href="uniselGrade.php" class="item">Universiti Selangor</a>
+            <a href="kduGrade.php" class="item">KDU University</a>
+            <a href="segiGrade.php" class="item">SEGI University</a>
           </div>
         </div>
         <div class="three wide column">
@@ -435,19 +462,20 @@ else{
       </div>
     </div>
   </div>
+
   <a href="#" id="scroll" style="display: none;"><span></span></a>
   <script src="js1.js"></script>
 
   <!-- Bootstrap 4 JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

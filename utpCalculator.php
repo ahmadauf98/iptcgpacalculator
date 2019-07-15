@@ -9,22 +9,22 @@
   <link rel="icon" href="uplogo.png" type="image/x-icon">
   <link rel="shortcut icon" href="uplogo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
   <script type="text/javascript"
     src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
   <link rel="stylesheet" href="style.css">
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-143688410-1');
-</script>
+    gtag('config', 'UA-143688410-1');
+  </script>
 </head>
 
 <body>
@@ -174,65 +174,87 @@ function test_input($data) {
             <a class="nav-link" href="landingpage1.php" class="item">Grade</a>
           </li>
           <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Public University
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="umCalculator.php" style="color:black;"><img src="umicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Malaya (UM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="upmCalculator.php" style="color:black;"><img src="upmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Putra Malaysia (UPM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Teknologi Mara (UITM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="utmCalculator.php" style="color:black;"><img src="utmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Teknologi Malaysia (UTM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="ukmCalculator.php" style="color:black;"><img src="ukmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Kebangsaan Malaysia (UKM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="uiaCalculator.php" style="color:black;"><img src="uiaicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Islam Antarabangsa Malaysia (UIAM)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="usmCalculator.php" style="color:black;"><img src="usmicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Sains Malaysia (USM)</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Private University
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="utpCalculator.php" style="color:black;"><img src="utpicon.ico" alt=""
-              height="20px" style="margin: 1px 3px 0 0">
-            Universiti Petronas (UTP)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Kuala Lumpur (Unikl)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Taylor's University </a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Tenaga Nasional (Uniten)</a>
-            <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="uniselCalculator.php" style="color:black;"><img src="uniselicon.ico"
-              alt="" height="20px" style="margin: 1px 3px 0 0">
-            Universiti Selangor (Unisel)</a>
-        </div>
-      </li>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Public University
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="umCalculator.php" style="color:black;"><img src="umicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Malaya (UM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="upmCalculator.php" style="color:black;"><img src="upmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Putra Malaysia (UPM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Teknologi Mara (UITM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="utmCalculator.php" style="color:black;"><img src="utmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Teknologi Malaysia (UTM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="ukmCalculator.php" style="color:black;"><img src="ukmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Kebangsaan Malaysia (UKM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="uiaCalculator.php" style="color:black;"><img src="uiaicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Islam Antarabangsa (UIA)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="usmCalculator.php" style="color:black;"><img src="usmicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Sains Malaysia (USM)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="umpCalculator.php" style="color:black;"><img src="umpicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Malaysia Pahang (UMP)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="umkCalculator.php" style="color:black;"><img src="umkicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Malaysia Kelantan (UMK)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="umtCalculator.php" style="color:black;"><img src="umticon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Malaysia Terengganu (UMT)</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Private University
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="utpCalculator.php" style="color:black;"><img src="utpicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Petronas (UTP)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Kuala Lumpur (Unikl)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico"
+                  alt="" height="20px" style="margin: 1px 3px 0 0">
+                Taylor's University </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Tenaga Nasional (Uniten)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="uniselCalculator.php" style="color:black;"><img src="uniselicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                Universiti Selangor (Unisel)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="kduCalculator.php" style="color:black;"><img src="kduicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                KDU University</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="segiCalculator.php" style="color:black;"><img src="segiicon.ico" alt=""
+                  height="20px" style="margin: 1px 3px 0 0">
+                SEGI University</a>
+            </div>
+          </li>
         </ul>
         <ul class="navbar-nav my-2 my-lg-0" style="text-align:center;">
           <li class="nav-item dropdown">
@@ -553,7 +575,8 @@ function test_input($data) {
 
         </div>
         <input class="ui green submit button" id="button" type="submit" name="submit" value="Calculate" />
-        <input class="ui grey submit button" id="button" type="submit" name="reset" value="Reset" onclick="clearForm()" />
+        <input class="ui grey submit button" id="button" type="submit" name="reset" value="Reset"
+          onclick="clearForm()" />
       </form>
 
       <?php
@@ -615,31 +638,31 @@ function test_input($data) {
               <td data-label="Grade Points">3.00</td>
             </tr>
             <tr>
-            <td data-label="Letter">C+</td>
-            <td data-label="Grade Points">2.50</td>
+              <td data-label="Letter">C+</td>
+              <td data-label="Grade Points">2.50</td>
             </tr>
             <tr>
-            <td data-label="Letter">C</td>
-            <td data-label="Grade Points">2.00</td>
+              <td data-label="Letter">C</td>
+              <td data-label="Grade Points">2.00</td>
             </tr>
             <tr>
-            <td data-label="Letter">D+</td>
-            <td data-label="Grade Points">1.50</td>
+              <td data-label="Letter">D+</td>
+              <td data-label="Grade Points">1.50</td>
             </tr>
             <tr>
-            <td data-label="Letter">D</td>
-            <td data-label="Grade Points">1.00</td>
+              <td data-label="Letter">D</td>
+              <td data-label="Grade Points">1.00</td>
             </tr>
             <tr>
-            <td data-label="Letter">F</td>
-            <td data-label="Grade Points">0.00</td>
+              <td data-label="Letter">F</td>
+              <td data-label="Grade Points">0.00</td>
             </tr>
           </tbody>
-        </table><div>
-        <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
-        <div class="ui centered grid ui container" id="shareButton">
-            <a
-              href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
+        </table>
+        <div>
+          <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
+          <div class="ui centered grid ui container" id="shareButton">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
                 id="button1" class="ui facebook button">
                 <i class="facebook icon"></i>
                 Share
@@ -650,8 +673,8 @@ function test_input($data) {
                 <i class="twitter icon"></i>
                 Tweet
               </button></a>
-            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com"><button
-                id="button1" class="ui youtube button">
+            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com"><button id="button1"
+                class="ui youtube button">
                 <i class="reddit icon"></i>
                 Share
               </button></a>
@@ -673,8 +696,6 @@ function test_input($data) {
     <div class="two wide column"></div>
   </div>
 
-
-
   <div class="ui inverted vertical footer segment" id="footer">
     <div class="ui center aligned container">
       <div class="ui stackable inverted divided grid">
@@ -686,8 +707,11 @@ function test_input($data) {
             <a href="uitmCalculator.php" class="item">Universiti Teknologi Mara</a>
             <a href="utmCalculator.php" class="item">Universiti Teknologi Malaysia</a>
             <a href="ukmCalculator.php" class="item">Universiti Kebangsaan Malaysia</a>
-            <a href="uiamCalculator.php" class="item">Universiti Islam Antarabangsa Malaysia</a>
+            <a href="uiaCalculator.php" class="item">Universiti Islam Antarabangsa</a>
             <a href="usmCalculator.php" class="item">Universiti Sains Malaysia</a>
+            <a href="umpCalculator.php" class="item">Universiti Malaysia Pahang</a>
+            <a href="umkCalculator.php" class="item">Universiti Malaysia Kelantan</a>
+            <a href="umtCalculator.php" class="item">Universiti Malaysia Terengganu</a>
           </div>
         </div>
         <div class="three wide column">
@@ -698,6 +722,8 @@ function test_input($data) {
             <a href="taylorCalculator.php" class="item">Taylors University</a>
             <a href="unitenCalculator.php" class="item">Universiti Tenaga Nasional</a>
             <a href="uniselCalculator.php" class="item">Universiti Selangor</a>
+            <a href="kduCalculator.php" class="item">KDU University</a>
+            <a href="segiCalculator.php" class="item">SEGI University</a>
           </div>
         </div>
         <div class="three wide column">
@@ -728,19 +754,22 @@ function test_input($data) {
       </div>
     </div>
   </div>
+  
   <a href="#" id="scroll" style="display: none;"><span></span></a>
-  <script src="js.js"></script>
+  
 
   <!-- Bootstrap 4 JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="js.js"></script>
 </body>
 
 </html>

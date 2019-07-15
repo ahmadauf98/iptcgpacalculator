@@ -128,6 +128,18 @@
                     <a class="dropdown-item" href="usmGrade.php" style="color:black;"><img src="usmicon.ico" alt=""
                             height="20px" style="margin: 1px 3px 0 0">
                         Universiti Sains Malaysia (USM)</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="umpGrade.php" style="color:black;"><img src="umpicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Malaysia Pahang (UMP)</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="umkGrade.php" style="color:black;"><img src="umkicon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Malaysia Kelantan (UMK)</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="umtGrade.php" style="color:black;"><img src="umticon.ico" alt=""
+                            height="20px" style="margin: 1px 3px 0 0">
+                        Universiti Malaysia Terengganu (UMT)</a>
                     </div>
                 </div>
 
@@ -148,6 +160,14 @@
                     <a class="dropdown-item" href="uniselGrade.php" style="color:black;"><img src="uniselicon.ico"
                             alt="" height="20px" style="margin: 1px 3px 0 0">
                         Universiti Selangor (Unisel)</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="kduGrade.php" style="color:black;"><img src="kduicon.ico"
+                            alt="" height="20px" style="margin: 1px 3px 0 0">
+                        KDU University</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="segiGrade.php" style="color:black;"><img src="segiicon.ico"
+                            alt="" height="20px" style="margin: 1px 3px 0 0">
+                        SEGI University</a>
                     </div>
                 </div>
             </div>
