@@ -9,22 +9,22 @@
   <link rel="icon" href="uplogo.png" type="image/x-icon">
   <link rel="shortcut icon" href="uplogo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
   <script type="text/javascript"
     src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
   <link rel="stylesheet" href="style.css">
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-143688410-1');
-</script>
+    gtag('config', 'UA-143688410-1');
+  </script>
 </head>
 
 <body>
@@ -153,7 +153,7 @@ function test_input($data) {
   }
 
 ?>
- <!-- Navigation Bar Section-->
+<!-- Navigation Bar Section-->
   <!-- Bootstrap 4 Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E;">
     <div class="container">
@@ -227,6 +227,10 @@ function test_input($data) {
         <a class="dropdown-item" href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico"
               alt="" height="20px" style="margin: 1px 3px 0 0">
             Universiti Tenaga Nasional (Uniten)</a>
+            <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="uniselCalculator.php" style="color:black;"><img src="uniselicon.ico"
+              alt="" height="20px" style="margin: 1px 3px 0 0">
+            Universiti Selangor (Unisel)</a>
         </div>
       </li>
         </ul>
@@ -251,7 +255,6 @@ function test_input($data) {
       </div>
     </div>
   </nav>
-  
 
   <div class="ui inverted grid ui container">
     <div class="sixteen wide column">
@@ -566,7 +569,8 @@ function test_input($data) {
 
         </div>
         <input class="ui green submit button" id="button" type="submit" name="submit" value="Calculate" />
-        <input class="ui grey submit button" id="button" type="submit" name="reset" value="Reset" onclick="clearForm()" />
+        <input class="ui grey submit button" id="button" type="submit" name="reset" value="Reset"
+          onclick="clearForm()" />
       </form>
 
       <?php
@@ -643,36 +647,36 @@ function test_input($data) {
               <td data-label="Grade Points">2.50</td>
             </tr>
             <tr>
-            <td data-label="Letter">C</td>
-            <td data-label="Marks">50-54</td>
-            <td data-label="Grade Points">2.00</td>
+              <td data-label="Letter">C</td>
+              <td data-label="Marks">50-54</td>
+              <td data-label="Grade Points">2.00</td>
             </tr>
             <tr>
-            <td data-label="Letter">C-</td>
-            <td data-label="Marks">47-49</td>
-            <td data-label="Grade Points">1.75</td>
+              <td data-label="Letter">C-</td>
+              <td data-label="Marks">47-49</td>
+              <td data-label="Grade Points">1.75</td>
             </tr>
             <tr>
-            <td data-label="Letter">D+</td>
-            <td data-label="Marks">44-46</td>
-            <td data-label="Grade Points">1.50</td>
+              <td data-label="Letter">D+</td>
+              <td data-label="Marks">44-46</td>
+              <td data-label="Grade Points">1.50</td>
             </tr>
             <tr>
-            <td data-label="Letter">D</td>
-            <td data-label="Marks">40-43</td>
-            <td data-label="Grade Points">1.00</td>
+              <td data-label="Letter">D</td>
+              <td data-label="Marks">40-43</td>
+              <td data-label="Grade Points">1.00</td>
             </tr>
             <tr>
-            <td data-label="Letter">F</td>
-            <td data-label="Marks">0-39</td>
-            <td data-label="Grade Points">0.00</td>
+              <td data-label="Letter">F</td>
+              <td data-label="Marks">0-39</td>
+              <td data-label="Grade Points">0.00</td>
             </tr>
           </tbody>
-        </table><div>
-        <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
-        <div class="ui centered grid ui container" id="shareButton">
-            <a
-              href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
+        </table>
+        <div>
+          <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
+          <div class="ui centered grid ui container" id="shareButton">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
                 id="button1" class="ui facebook button">
                 <i class="facebook icon"></i>
                 Share
@@ -683,8 +687,8 @@ function test_input($data) {
                 <i class="twitter icon"></i>
                 Tweet
               </button></a>
-            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com"><button
-                id="button1" class="ui youtube button">
+            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com"><button id="button1"
+                class="ui youtube button">
                 <i class="reddit icon"></i>
                 Share
               </button></a>
@@ -730,6 +734,7 @@ function test_input($data) {
             <a href="uniklCalculator.php" class="item">Universiti Kuala Lumpur</a>
             <a href="taylorCalculator.php" class="item">Taylors University</a>
             <a href="unitenCalculator.php" class="item">Universiti Tenaga Nasional</a>
+            <a href="uniselCalculator.php" class="item">Universiti Selangor</a>
           </div>
         </div>
         <div class="three wide column">
@@ -765,14 +770,14 @@ function test_input($data) {
 
   <!-- Bootstrap 4 JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

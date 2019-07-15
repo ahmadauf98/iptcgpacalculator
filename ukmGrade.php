@@ -56,7 +56,7 @@ function test_input($data) {
 
 ?>
 
-   <!-- Navigation Bar Section-->
+ <!-- Navigation Bar Section-->
   <!-- Bootstrap 4 Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E;">
     <div class="container">
@@ -122,6 +122,10 @@ function test_input($data) {
         <a class="dropdown-item" href="unitenGrade.php" style="color:black;"><img src="unitenicon.ico"
               alt="" height="20px" style="margin: 1px 3px 0 0">
             Universiti Tenaga Nasional (Uniten)</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="uniselGrade.php" style="color:black;"><img src="uniselicon.ico"
+              alt="" height="20px" style="margin: 1px 3px 0 0">
+            Universiti Selangor (Unisel)</a>
         </div>
       </li>
         </ul>
@@ -392,6 +396,7 @@ else{
           <div class="ui inverted link list">
           <a href="uniklGrade.php" class="item">Universiti Kuala Lumpur</a>
             <a href="unitenGrade.php" class="item">Universiti Tenaga Nasional</a>
+            <a href="uniselGrade.php" class="item">Universiti Selangor</a>
           </div>
         </div>
         <div class="three wide column">

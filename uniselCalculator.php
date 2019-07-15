@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-5649677793317740",
+          enable_page_level_ads: true
+     });
+</script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>CGPA Calculator USM</title>
+  <title>CGPA Calculator Unisel</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="uplogo.png" type="image/x-icon">
@@ -153,6 +160,7 @@ function test_input($data) {
   }
 
 ?>
+
   <!-- Navigation Bar Section-->
   <!-- Bootstrap 4 Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E;">
@@ -256,13 +264,21 @@ function test_input($data) {
     </div>
   </nav>
 
+  <!-- Content-->
   <div class="ui inverted grid ui container">
     <div class="sixteen wide column">
       <br>
-      <img id="logo" src="usmLogo.png" alt="" width="125px;">
-      <h1>CGPA Calculator (Universiti Sains Malaysia)</h1>
+      <img id="logo" src="uniselLogo.png" alt="" width="125px;">
+      <h1>CGPA Calculator (Universiti Selangor)</h1>
     </div>
     <div class="two wide column">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- ads1 -->
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740" data-ad-slot="9035428983"
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
     </div>
     <div class="twelve wide column">
       <form class="ui inverted form segment" id="Form" method="post"
@@ -292,17 +308,18 @@ function test_input($data) {
               <label>Grade:</label>
               <select class="ui dropdown1" name="grade1" onchange="pFunction1()">
                 <option value="">Select</option>
+                <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
                 <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
-                <option value="3.67" <?php if (isset($grade) && $grade=="3.67") echo "checked";?>>A-</option>
-                <option value="3.33" <?php if (isset($grade) && $grade=="3.33") echo "checked";?>>B+</option>
+                <option value="3.70" <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                <option value="3.30" <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
                 <option value="3.00" <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
-                <option value="2.67" <?php if (isset($grade) && $grade=="2.67") echo "checked";?>>B-</option>
-                <option value="2.33" <?php if (isset($grade) && $grade=="2.33") echo "checked";?>>C+</option>
+                <option value="2.70" <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                <option value="2.30" <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
                 <option value="2.00" <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
-                <option value="1.67" <?php if (isset($grade) && $grade=="1.67") echo "checked";?>>C-</option>
-                <option value="1.33" <?php if (isset($grade) && $grade=="1.33") echo "checked";?>>D+</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>D-</option>
+                <option value="1.70" <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                <option value="1.30" <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D</option>
+                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D-</option>
+                <option value="0.67" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>E</option>
                 <option value="0.00" <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
               </select>
             </div>
@@ -328,17 +345,18 @@ function test_input($data) {
               <label>Grade:</label>
               <select class="ui dropdown2" name="grade2" onchange="pFunction2()">
                 <option value="">Select</option>
+                <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
                 <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
-                <option value="3.67" <?php if (isset($grade) && $grade=="3.67") echo "checked";?>>A-</option>
-                <option value="3.33" <?php if (isset($grade) && $grade=="3.33") echo "checked";?>>B+</option>
+                <option value="3.70" <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                <option value="3.30" <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
                 <option value="3.00" <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
-                <option value="2.67" <?php if (isset($grade) && $grade=="2.67") echo "checked";?>>B-</option>
-                <option value="2.33" <?php if (isset($grade) && $grade=="2.33") echo "checked";?>>C+</option>
+                <option value="2.70" <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                <option value="2.30" <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
                 <option value="2.00" <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
-                <option value="1.67" <?php if (isset($grade) && $grade=="1.67") echo "checked";?>>C-</option>
-                <option value="1.33" <?php if (isset($grade) && $grade=="1.33") echo "checked";?>>D+</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>D-</option>
+                <option value="1.70" <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                <option value="1.30" <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D</option>
+                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D-</option>
+                <option value="0.67" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>E</option>
                 <option value="0.00" <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
               </select>
             </div>
@@ -364,17 +382,18 @@ function test_input($data) {
               <label>Grade:</label>
               <select class="ui dropdown3" name="grade3" onchange="pFunction3()">
                 <option value="">Select</option>
+                <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
                 <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
-                <option value="3.67" <?php if (isset($grade) && $grade=="3.67") echo "checked";?>>A-</option>
-                <option value="3.33" <?php if (isset($grade) && $grade=="3.33") echo "checked";?>>B+</option>
+                <option value="3.70" <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                <option value="3.30" <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
                 <option value="3.00" <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
-                <option value="2.67" <?php if (isset($grade) && $grade=="2.67") echo "checked";?>>B-</option>
-                <option value="2.33" <?php if (isset($grade) && $grade=="2.33") echo "checked";?>>C+</option>
+                <option value="2.70" <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                <option value="2.30" <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
                 <option value="2.00" <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
-                <option value="1.67" <?php if (isset($grade) && $grade=="1.67") echo "checked";?>>C-</option>
-                <option value="1.33" <?php if (isset($grade) && $grade=="1.33") echo "checked";?>>D+</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>D-</option>
+                <option value="1.70" <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                <option value="1.30" <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D</option>
+                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D-</option>
+                <option value="0.67" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>E</option>
                 <option value="0.00" <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
               </select>
             </div>
@@ -400,17 +419,18 @@ function test_input($data) {
               <label>Grade:</label>
               <select class="ui dropdown4" name="grade4" onchange="pFunction4()">
                 <option value="">Select</option>
+                <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
                 <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
-                <option value="3.67" <?php if (isset($grade) && $grade=="3.67") echo "checked";?>>A-</option>
-                <option value="3.33" <?php if (isset($grade) && $grade=="3.33") echo "checked";?>>B+</option>
+                <option value="3.70" <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                <option value="3.30" <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
                 <option value="3.00" <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
-                <option value="2.67" <?php if (isset($grade) && $grade=="2.67") echo "checked";?>>B-</option>
-                <option value="2.33" <?php if (isset($grade) && $grade=="2.33") echo "checked";?>>C+</option>
+                <option value="2.70" <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                <option value="2.30" <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
                 <option value="2.00" <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
-                <option value="1.67" <?php if (isset($grade) && $grade=="1.67") echo "checked";?>>C-</option>
-                <option value="1.33" <?php if (isset($grade) && $grade=="1.33") echo "checked";?>>D+</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>D-</option>
+                <option value="1.70" <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                <option value="1.30" <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D</option>
+                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D-</option>
+                <option value="0.67" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>E</option>
                 <option value="0.00" <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
               </select>
             </div>
@@ -436,17 +456,18 @@ function test_input($data) {
               <label>Grade:</label>
               <select class="ui dropdown5" name="grade5" onchange="pFunction5()">
                 <option value="">Select</option>
+                <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
                 <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
-                <option value="3.67" <?php if (isset($grade) && $grade=="3.67") echo "checked";?>>A-</option>
-                <option value="3.33" <?php if (isset($grade) && $grade=="3.33") echo "checked";?>>B+</option>
+                <option value="3.70" <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                <option value="3.30" <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
                 <option value="3.00" <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
-                <option value="2.67" <?php if (isset($grade) && $grade=="2.67") echo "checked";?>>B-</option>
-                <option value="2.33" <?php if (isset($grade) && $grade=="2.33") echo "checked";?>>C+</option>
+                <option value="2.70" <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                <option value="2.30" <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
                 <option value="2.00" <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
-                <option value="1.67" <?php if (isset($grade) && $grade=="1.67") echo "checked";?>>C-</option>
-                <option value="1.33" <?php if (isset($grade) && $grade=="1.33") echo "checked";?>>D+</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>D-</option>
+                <option value="1.70" <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                <option value="1.30" <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D</option>
+                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D-</option>
+                <option value="0.67" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>E</option>
                 <option value="0.00" <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
               </select>
             </div>
@@ -472,17 +493,18 @@ function test_input($data) {
               <label>Grade:</label>
               <select class="ui dropdown6" name="grade6" onchange="pFunction6()">
                 <option value="">Select</option>
+                <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
                 <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
-                <option value="3.67" <?php if (isset($grade) && $grade=="3.67") echo "checked";?>>A-</option>
-                <option value="3.33" <?php if (isset($grade) && $grade=="3.33") echo "checked";?>>B+</option>
+                <option value="3.70" <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                <option value="3.30" <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
                 <option value="3.00" <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
-                <option value="2.67" <?php if (isset($grade) && $grade=="2.67") echo "checked";?>>B-</option>
-                <option value="2.33" <?php if (isset($grade) && $grade=="2.33") echo "checked";?>>C+</option>
+                <option value="2.70" <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                <option value="2.30" <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
                 <option value="2.00" <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
-                <option value="1.67" <?php if (isset($grade) && $grade=="1.67") echo "checked";?>>C-</option>
-                <option value="1.33" <?php if (isset($grade) && $grade=="1.33") echo "checked";?>>D+</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>D-</option>
+                <option value="1.70" <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                <option value="1.30" <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D</option>
+                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D-</option>
+                <option value="0.67" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>E</option>
                 <option value="0.00" <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
               </select>
             </div>
@@ -508,17 +530,18 @@ function test_input($data) {
               <label>Grade:</label>
               <select class="ui dropdown7" name="grade7" onchange="pFunction7()">
                 <option value="">Select</option>
+                <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
                 <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
-                <option value="3.67" <?php if (isset($grade) && $grade=="3.67") echo "checked";?>>A-</option>
-                <option value="3.33" <?php if (isset($grade) && $grade=="3.33") echo "checked";?>>B+</option>
+                <option value="3.70" <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                <option value="3.30" <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
                 <option value="3.00" <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
-                <option value="2.67" <?php if (isset($grade) && $grade=="2.67") echo "checked";?>>B-</option>
-                <option value="2.33" <?php if (isset($grade) && $grade=="2.33") echo "checked";?>>C+</option>
+                <option value="2.70" <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                <option value="2.30" <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
                 <option value="2.00" <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
-                <option value="1.67" <?php if (isset($grade) && $grade=="1.67") echo "checked";?>>C-</option>
-                <option value="1.33" <?php if (isset($grade) && $grade=="1.33") echo "checked";?>>D+</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>D-</option>
+                <option value="1.70" <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                <option value="1.30" <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D</option>
+                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D-</option>
+                <option value="0.67" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>E</option>
                 <option value="0.00" <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
               </select>
             </div>
@@ -544,17 +567,18 @@ function test_input($data) {
               <label>Grade:</label>
               <select class="ui dropdown8" name="grade8" onchange="pFunction8()">
                 <option value="">Select</option>
+                <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
                 <option value="4.00" <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
-                <option value="3.67" <?php if (isset($grade) && $grade=="3.67") echo "checked";?>>A-</option>
-                <option value="3.33" <?php if (isset($grade) && $grade=="3.33") echo "checked";?>>B+</option>
+                <option value="3.70" <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                <option value="3.30" <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
                 <option value="3.00" <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
-                <option value="2.67" <?php if (isset($grade) && $grade=="2.67") echo "checked";?>>B-</option>
-                <option value="2.33" <?php if (isset($grade) && $grade=="2.33") echo "checked";?>>C+</option>
+                <option value="2.70" <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                <option value="2.30" <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
                 <option value="2.00" <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
-                <option value="1.67" <?php if (isset($grade) && $grade=="1.67") echo "checked";?>>C-</option>
-                <option value="1.33" <?php if (isset($grade) && $grade=="1.33") echo "checked";?>>D+</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
-                <option value="1.00" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>D-</option>
+                <option value="1.70" <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                <option value="1.30" <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D</option>
+                <option value="1.00" <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D-</option>
+                <option value="0.67" <?php if (isset($grade) && $grade=="0.67") echo "checked";?>>E</option>
                 <option value="0.00" <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
               </select>
             </div>
@@ -577,7 +601,8 @@ function test_input($data) {
 
         </div>
         <input class="ui green submit button" id="button" type="submit" name="submit" value="Calculate" />
-        <input class="ui grey submit button" id="button" type="submit" name="reset" value="Reset" onclick="clearForm()" />
+        <input class="ui grey submit button" id="button" type="submit" name="reset" value="Reset"
+          onclick="clearForm()" />
       </form>
 
       <?php
@@ -613,7 +638,7 @@ function test_input($data) {
   }
 ?>
       <div id="course-info">
-        <h3>This grade conversion table is used at Universiti Sains Malaysia (USM)</h3>
+        <h3>This grade conversion table is used at Universiti Selangor (Unisel)</h3>
         <table class="ui inverted fixed single line celled table ">
           <thead>
             <tr>
@@ -624,69 +649,83 @@ function test_input($data) {
           </thead>
           <tbody>
             <tr>
+              <td data-label="Letter">A+</td>
+              <td data-label="Marks">90-100</td>
+              <td data-label="Grade Points">4.00</td>
+            </tr>
+            <tr>
               <td data-label="Letter">A</td>
-              <td data-label="Marks">80-100</td>
+              <td data-label="Marks">80-89</td>
               <td data-label="Grade Points">4.00</td>
             </tr>
             <tr>
               <td data-label="Letter">A-</td>
-              <td data-label="Marks">70-79</td>
-              <td data-label="Grade Points">3.67</td>
+              <td data-label="Marks">75-79</td>
+              <td data-label="Grade Points">3.70</td>
             </tr>
             <tr>
               <td data-label="Letter">B+</td>
-              <td data-label="Marks">64-69</td>
-              <td data-label="Grade Points">3.33</td>
+              <td data-label="Marks">70-74</td>
+              <td data-label="Grade Points">3.30</td>
             </tr>
             <tr>
               <td data-label="Letter">B</td>
-              <td data-label="Marks">58-63</td>
+              <td data-label="Marks">65-69</td>
               <td data-label="Grade Points">3.00</td>
             </tr>
             <tr>
               <td data-label="Letter">B-</td>
-              <td data-label="Marks">52-57</td>
-              <td data-label="Grade Points">2.67</td>
+              <td data-label="Marks">60-64</td>
+              <td data-label="Grade Points">2.70</td>
             </tr>
             <tr>
-            <td data-label="Letter">C+</td>
-            <td data-label="Marks">46-51</td>
-            <td data-label="Grade Points">2.33</td>
+              <td data-label="Letter">C+</td>
+              <td data-label="Marks">55-59</td>
+              <td data-label="Grade Points">2.30</td>
             </tr>
             <tr>
-            <td data-label="Letter">C</td>
-            <td data-label="Marks">40-45</td>
-            <td data-label="Grade Points">2.00</td>
+              <td data-label="Letter">C</td>
+              <td data-label="Marks">50-54</td>
+              <td data-label="Grade Points">2.00</td>
             </tr>
             <tr>
-            <td data-label="Letter">C-</td>
-            <td data-label="Marks">36-39</td>
-            <td data-label="Grade Points">1.67</td>
+              <td data-label="Letter">C-</td>
+              <td data-label="Marks">45-49</td>
+              <td data-label="Grade Points">1.70</td>
             </tr>
             <tr>
-            <td data-label="Letter">D+</td>
-            <td data-label="Marks">32-35</td>
-            <td data-label="Grade Points">1.33</td>
+              <td data-label="Letter">D</td>
+              <td data-label="Marks">40-44</td>
+              <td data-label="Grade Points">1.30</td>
             </tr>
             <tr>
-            <td data-label="Letter">D</td>
-            <td data-label="Marks">28-31</td>
-            <td data-label="Grade Points">1.00</td>
+              <td data-label="Letter">D-</td>
+              <td data-label="Marks">35-39</td>
+              <td data-label="Grade Points">1.00</td>
             </tr>
             <tr>
-            <td data-label="Letter">D-</td>
-            <td data-label="Marks">25-27</td>
-            <td data-label="Grade Points">0.67</td>
+              <td data-label="Letter">E</td>
+              <td data-label="Marks">30-34</td>
+              <td data-label="Grade Points">0.67</td>
             </tr>
             <tr>
-            <td data-label="Letter">F</td>
-            <td data-label="Marks">0-24</td>
-            <td data-label="Grade Points">0.00</td>
+              <td data-label="Letter">F</td>
+              <td data-label="Marks">0-29</td>
+              <td data-label="Grade Points">0.00</td>
             </tr>
           </tbody>
-        </table><div>
-        <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard"></div>
-        <div class="ui centered grid ui container" id="shareButton">
+        </table>
+        <div>
+          <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- ads3 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740"
+              data-ad-slot="7172038196" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          </div>
+          <div class="ui centered grid ui container" id="shareButton">
             <a
               href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
                 id="button1" class="ui facebook button">
@@ -719,7 +758,15 @@ function test_input($data) {
         </div>
       </div>
     </div>
-    <div class="two wide column"></div>
+    <div class="two wide column">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- ads2 -->
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740" data-ad-slot="8185381746"
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
   </div>
 
 

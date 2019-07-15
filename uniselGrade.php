@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Subject Grade UTM</title>
+  <title>Subject Grade UM</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="uplogo.png" type="image/x-icon">
@@ -15,8 +15,8 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
   <script type="text/javascript"
     src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
-  <link rel="stylesheet" href="style.css">
-   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <link rel="stylesheet" href="style.css"> 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -55,6 +55,7 @@ function test_input($data) {
   }
 
 ?>
+
   <!-- Navigation Bar Section-->
   <!-- Bootstrap 4 Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E;">
@@ -149,12 +150,11 @@ function test_input($data) {
       </div>
     </div>
   </nav>
-
   <div class="ui inverted grid ui container">
     <div class="sixteen wide column">
       <br>
-      <img id="logo" src="utmLogo.png" alt="" width="125px;">
-      <h1>Grade Target (Universiti Teknologi Malaysia)</h1>
+      <img id="logo" src="uniselLogo.png" alt="" width="125px;">
+      <h1>Grade Target (Universiti Selangor)</h1>
     </div>
     <div class="two wide column">
     </div>
@@ -182,7 +182,7 @@ function test_input($data) {
         </div><br>
 
         <div class="Carrymark">
-          <h3>Carrymark</h3>
+          <h3>Carrymark</h3>   
           <p>P/s: If you are only get carrymark by grade, please assume your mark based on minimum mark in table below and Total Marks: 100.</p>
           <div class="two fields">
 
@@ -241,6 +241,7 @@ function test_input($data) {
 
       <?php
 //Grade Transformation
+
 if ($tg1 == 90) {
   $grade = 'A+';
 }
@@ -290,8 +291,7 @@ else{
  
 ?>
       <div id="course-info">
-        <h3>This grade conversion table is used at Universiti Teknologi Malaysia (UTM)</h3>
-        
+        <h3>This grade conversion table is used at Universiti Selangor (Unisel)</h3>
         <table class="ui inverted fixed single line celled table ">
           <thead>
             <tr>
@@ -301,7 +301,7 @@ else{
             </tr>
           </thead>
           <tbody>
-            <tr>
+          <tr>
               <td data-label="Letter">A+</td>
               <td data-label="Marks">90-100</td>
               <td data-label="Minimum Marks">90</td>
@@ -337,9 +337,9 @@ else{
               <td data-label="Minimum Marks">55</td>
             </tr>
             <tr>
-            <td data-label="Letter">C</td>
-            <td data-label="Marks">50-54</td>
-            <td data-label="Minimum Marks">50</td>
+              <td data-label="Letter">C</td>
+              <td data-label="Marks">50-54</td>
+              <td data-label="Minimum Marks">50</td>
             </tr>
           </tbody>
         </table>
@@ -402,7 +402,7 @@ else{
         <div class="three wide column">
           <h4 class="ui inverted header">Private University</h4>
           <div class="ui inverted link list">
-          <a href="uniklGrade.php" class="item">Universiti Kuala Lumpur</a>
+            <a href="uniklGrade.php" class="item">Universiti Kuala Lumpur</a>
             <a href="unitenGrade.php" class="item">Universiti Tenaga Nasional</a>
             <a href="uniselGrade.php" class="item">Universiti Selangor</a>
           </div>

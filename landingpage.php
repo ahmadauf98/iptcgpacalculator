@@ -151,6 +151,10 @@
                         <a class="dropdown-item" href="unitenCalculator.php" style="color:black;"><img
                                 src="unitenicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
                             Universiti Tenaga Nasional (Uniten)</a>
+                            <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="uniselCalculator.php" style="color:black;"><img
+                                src="uniselicon.ico" alt="" height="20px" style="margin: 1px 3px 0 0">
+                            Universiti Selangor (Unisel)</a>
                     </div>
                 </div>
             </div>
