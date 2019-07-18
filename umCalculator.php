@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-5649677793317740",
-          enable_page_level_ads: true
-     });
-</script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>CGPA Calculator UM</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="uplogo.png" type="image/x-icon">
-  <link rel="shortcut icon" href="uplogo.png" type="image/x-icon">
+  <link rel="icon" href="/static/images/uplogo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/static/images/uplogo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
   <script type="text/javascript"
     src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
   <link rel="stylesheet" href="style.css">
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-143688410-1');
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143688410-1');
+  </script>
+  <!-- End Global site tag (gtag.js) - Google Analytics -->
 </head>
 
 <body>
@@ -161,146 +156,18 @@ function test_input($data) {
 
 ?>
 
-  <!-- Navigation Bar Section-->
-  <!-- Bootstrap 4 Nav -->
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background:#1B1C1E;">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="Logo.png" width="auto" height="30" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto" style="text-align:center;">
-          <li class="nav-item">
-            <a class="nav-link" href="index.php" class="item">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="landingpage1.php" class="item">Grade</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Public University
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="umCalculator.php" style="color:black;"><img src="umicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Malaya (UM)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="upmCalculator.php" style="color:black;"><img src="upmicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Putra Malaysia (UPM)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="uitmCalculator.php" style="color:black;"><img src="uitmicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Teknologi Mara (UITM)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="utmCalculator.php" style="color:black;"><img src="utmicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Teknologi Malaysia (UTM)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="ukmCalculator.php" style="color:black;"><img src="ukmicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Kebangsaan Malaysia (UKM)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="uiaCalculator.php" style="color:black;"><img src="uiaicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Islam Antarabangsa (UIA)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="usmCalculator.php" style="color:black;"><img src="usmicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Sains Malaysia (USM)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="umpCalculator.php" style="color:black;"><img src="umpicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Malaysia Pahang (UMP)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="umkCalculator.php" style="color:black;"><img src="umkicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Malaysia Kelantan (UMK)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="umtCalculator.php" style="color:black;"><img src="umticon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Malaysia Terengganu (UMT)</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Private University
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="utpCalculator.php" style="color:black;"><img src="utpicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Petronas (UTP)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="uniklCalculator.php" style="color:black;"><img src="uniklicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Kuala Lumpur (Unikl)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="taylorCalculator.php" style="color:black;"><img src="taylorsicon.ico"
-                  alt="" height="20px" style="margin: 1px 3px 0 0">
-                Taylor's University </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="unitenCalculator.php" style="color:black;"><img src="unitenicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Tenaga Nasional (Uniten)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="uniselCalculator.php" style="color:black;"><img src="uniselicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                Universiti Selangor (Unisel)</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="kduCalculator.php" style="color:black;"><img src="kduicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                KDU University</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="segiCalculator.php" style="color:black;"><img src="segiicon.ico" alt=""
-                  height="20px" style="margin: 1px 3px 0 0">
-                SEGI University</a>
-            </div>
-          </li>
-        </ul>
-        <ul class="navbar-nav my-2 my-lg-0" style="text-align:center;">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Contact
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://www.facebook.com/ahmadauf.nasruddin" class="item" id="dropdown1">
-                <i class="facebook icon"></i> Facebook</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="https://twitter.com/Auf2098" class="item" id="dropdown1">
-                <i class="twitter icon"></i> Twitter</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="https://www.instagram.com/ahmadauf2098/" class="item" id="dropdown1">
-                <i class="instagram icon"></i> Instagram</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- Navigation Bar B4 Section-->
+  <?php require_once('includes/navbar_calculator.php') ?>
+  <!-- End Navigation Bar B4 Section-->
 
   <!-- Content-->
   <div class="ui inverted grid ui container">
     <div class="sixteen wide column">
       <br>
-      <img id="logo" src="umLogo.png" alt="" width="125px;">
+      <img id="logo" src="/static/images/umLogo.png" alt="" width="125px;" style="margin-top:55px;">
       <h1>CGPA Calculator (Universiti Malaya)</h1>
     </div>
     <div class="two wide column">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- ads1 -->
-      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740" data-ad-slot="9035428983"
-        data-ad-format="auto" data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
     </div>
     <div class="twelve wide column">
       <form class="ui inverted form segment" id="Form" method="post"
@@ -725,18 +592,8 @@ function test_input($data) {
           </tbody>
         </table>
         <div>
-          <div class="ui centered mobile leaderboard test ad" data-text="Mobile Leaderboard">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- ads3 -->
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740"
-              data-ad-slot="7172038196" data-ad-format="auto" data-full-width-responsive="true"></ins>
-            <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
           <div class="ui centered grid ui container" id="shareButton">
-            <a
-              href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://iptcgpacalculator.herokuapp.com"><button
                 id="button1" class="ui facebook button">
                 <i class="facebook icon"></i>
                 Share
@@ -747,8 +604,8 @@ function test_input($data) {
                 <i class="twitter icon"></i>
                 Tweet
               </button></a>
-            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com"><button
-                id="button1" class="ui youtube button">
+            <a href="http://www.reddit.com/submit?url=https://iptcgpacalculator.herokuapp.com"><button id="button1"
+                class="ui youtube button">
                 <i class="reddit icon"></i>
                 Share
               </button></a>
@@ -768,90 +625,27 @@ function test_input($data) {
       </div>
     </div>
     <div class="two wide column">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- ads2 -->
-      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5649677793317740" data-ad-slot="8185381746"
-        data-ad-format="auto" data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
     </div>
   </div>
 
 
-
-  <div class="ui inverted vertical footer segment" id="footer">
-    <div class="ui center aligned container">
-      <div class="ui stackable inverted divided grid">
-        <div class="three wide column">
-          <h4 class="ui inverted header">Public University</h4>
-          <div class="ui inverted link list">
-            <a href="umCalculator.php" class="item">Universiti Malaya</a>
-            <a href="upmCalculator.php" class="item">Universiti Putra Malaysia</a>
-            <a href="uitmCalculator.php" class="item">Universiti Teknologi Mara</a>
-            <a href="utmCalculator.php" class="item">Universiti Teknologi Malaysia</a>
-            <a href="ukmCalculator.php" class="item">Universiti Kebangsaan Malaysia</a>
-            <a href="uiaCalculator.php" class="item">Universiti Islam Antarabangsa</a>
-            <a href="usmCalculator.php" class="item">Universiti Sains Malaysia</a>
-            <a href="umpCalculator.php" class="item">Universiti Malaysia Pahang</a>
-            <a href="umkCalculator.php" class="item">Universiti Malaysia Kelantan</a>
-            <a href="umtCalculator.php" class="item">Universiti Malaysia Terengganu</a>
-          </div>
-        </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Private University</h4>
-          <div class="ui inverted link list">
-            <a href="utpCalculator.php" class="item">Universiti Teknologi Petronas</a>
-            <a href="uniklCalculator.php" class="item">Universiti Kuala Lumpur</a>
-            <a href="taylorCalculator.php" class="item">Taylors University</a>
-            <a href="unitenCalculator.php" class="item">Universiti Tenaga Nasional</a>
-            <a href="uniselCalculator.php" class="item">Universiti Selangor</a>
-            <a href="kduCalculator.php" class="item">KDU University</a>
-            <a href="segiCalculator.php" class="item">SEGI University</a>
-          </div>
-        </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Social Media</h4>
-          <div class="ui inverted link list">
-            <a href="https://www.facebook.com/ahmadauf.nasruddin" class="item">
-              <i class="facebook icon"></i> Facebook</a>
-            <a href="https://twitter.com/Auf2098" class="item">
-              <i class="twitter icon"></i> Twitter</a>
-            <a href="https://www.instagram.com/ahmadauf2098/" class="item">
-              <i class="instagram icon"></i> Instagram</a>
-            <a href="https://www.linkedin.com/in/ahmad-auf-b9aa09185/" class="item">
-              <i class="linkedin icon"></i> LinkedIn</a>
-          </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui inverted header">&#9400; All rights reserved 2019 by AA Dev</h4>
-          <p>This website is intended for use as a guide only. Contact your university or institution for exact
-            determination.</p>
-        </div>
-      </div>
-      <div class="ui inverted section divider"></div>
-      <img src="Logo.png" class="ui centered mini image">
-      <div class="ui horizontal inverted small divided link list">
-        <a class="item" href="https://ahmadauf98.github.io/">AA Dev Website</a>
-        <a class="item" href="#">Terms and Conditions</a>
-        <a class="item" href="#">Privacy Policy</a>
-      </div>
-    </div>
-  </div>
-
+  <!-- Footer Bar B4 Section-->
+  <?php require_once('includes/footer.php') ?>
+  <!-- Footer Bar B4 Section-->
+  
   <a href="#" id="scroll" style="display: none;"><span></span></a>
   <script src="js.js"></script>
 
   <!-- Bootstrap 4 JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
