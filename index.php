@@ -2,13 +2,13 @@
 <?php require_once('includes/head_section.php') ?>
 <!-- End head_section.php section -->
 
-    <!-- UI Kit Web Framework -->
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
-    <!-- UI Kit Web Framework -->
+<!-- UI Kit Web Framework -->
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
+<!-- UI Kit Web Framework -->
 
 <title>CGPA Calculator</title>
 
@@ -21,11 +21,19 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <!-- Ads -->
+    <script type="text/javascript">
+        var uid = '244335';
+        var wid = '503021';
+    </script>
+    <script type="text/javascript" src="//cdn.popcash.net/pop.js"></script>
+    <!-- End Ads -->
+
     <!-- Navigation Bar B4 Section-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background:#1B1C1E;">
         <div class="container">
-            <a href="#home"><img data-src="/static/images/Logo.png" data-srcset="/static/images/Logo.png" width="60" height="auto"
-                alt="" uk-img></a>
+            <a href="#home"><img data-src="/static/images/Logo.png" data-srcset="/static/images/Logo.png" width="60"
+                    height="auto" alt="" uk-img></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -78,7 +86,8 @@
 
                 <div class=" column">
                     <h1 style="color:white"><b>CGPA CALCULATOR</b></h1>
-                    <h5 style="color:white">You can use this feature to calculate<br> your current semester grade point<br> averages (SGPA)
+                    <h5 style="color:white">You can use this feature to calculate<br> your current semester grade
+                        point<br> averages (SGPA)
                         and
                         cumulative grade<br> point averages (CGPA).</h5><br>
                     <a href="calculator.php">
@@ -88,7 +97,8 @@
 
                 <div class="column">
                     <h1 style="color:white"><b>GRADE TARGET</b></h1>
-                    <h5 style="color:white">This feature is about how many marks<br> do you needed to score during the final<br> examination
+                    <h5 style="color:white">This feature is about how many marks<br> do you needed to score during the
+                        final<br> examination
                         to get
                         the grade you want.</h5><br><br>
                     <a href="grade.php">
@@ -101,12 +111,14 @@
     <!-- End Content Section-->
 
     <!-- About Section -->
-    <div class="ui inverted vertical stripe quote segment" id="about" style="background: #191A1C; border-top: solid 0.5px white; border-bottom: solid 0.5px white;">
+    <div class="ui inverted vertical stripe quote segment" id="about"
+        style="background: #191A1C; border-top: solid 0.5px white; border-bottom: solid 0.5px white;">
         <div class="ui inverted equal width stackable internally celled grid">
             <div class="inverted center aligned row">
                 <div class="column">
                     <h1 style="color:white"><b>ABOUT</b></h1>
-                    <h5 style="margin: 0 20% 0 20%;color:white;">My intention to build this website is to help university students to calculate their cumulative
+                    <h5 style="margin: 0 20% 0 20%;color:white;">My intention to build this website is to help
+                        university students to calculate their cumulative
                         grade point average (cgpa) and semester grade point average (gpa). There will be more features
                         added to this website in the future. Thank you for supporting my first project (own project).
                     </h5><br>
