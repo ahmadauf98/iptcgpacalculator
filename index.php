@@ -10,6 +10,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
 <!-- UI Kit Web Framework -->
 
+<!-- Google Ads -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-5649677793317740",
+          enable_page_level_ads: true
+     });
+</script>
+<!-- End Google Ads -->
+
 <title>CGPA Calculator</title>
 
 </head>
