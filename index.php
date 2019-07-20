@@ -10,16 +10,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
 <!-- UI Kit Web Framework -->
 
-<!-- Google Ads -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-5649677793317740",
-          enable_page_level_ads: true
-     });
-</script>
-<!-- End Google Ads -->
-
 <title>CGPA Calculator</title>
 
 </head>
@@ -30,14 +20,6 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPT6L5D" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-
-    <!-- Ads -->
-    <script type="text/javascript">
-        var uid = '244335';
-        var wid = '503021';
-    </script>
-    <script type="text/javascript" src="//cdn.popcash.net/pop.js"></script>
-    <!-- End Ads -->
 
     <!-- Navigation Bar B4 Section-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background:#1B1C1E;">

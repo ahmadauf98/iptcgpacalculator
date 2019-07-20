@@ -19,6 +19,14 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPT6L5D" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- Popcash Ads -->
+    <script type="text/javascript">
+        var uid = '244335';
+        var wid = '503021';
+    </script>
+    <script type="text/javascript" src="//cdn.popcash.net/pop.js"></script>
+    <!-- End Popcash Ads -->
 
     <!-- Navigation Bar B4 Section-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background:#1B1C1E;">
