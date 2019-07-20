@@ -72,6 +72,18 @@
                                 src="/static/icons/umticon.ico" alt="" width="20px" height="20px"
                                 style="margin: 1px 3px 0 0">
                             Universiti Malaysia Terengganu (UMT)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="upsiCalculator.php" style="color:black;"><img
+                                    src="/static/icons/upsiicon.ico" alt="" width="20px" height="20px" style="margin: 1px 3px 0 0">
+                                Universiti Pendidikan Sultan Idris (UPSI)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="unimasCalculator.php" style="color:black;"><img
+                                    src="/static/icons/unimasicon.ico" alt="" width="20px" height="20px" style="margin: 1px 3px 0 0">
+                                Universiti Malaysia Sarawak (Unimas)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="umsCalculator.php" style="color:black;"><img
+                                    src="/static/icons/umsicon.ico" alt="" width="20px" height="20px" style="margin: 1px 3px 0 0">
+                                Universiti Malaysia Sabah (UMS)</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

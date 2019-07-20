@@ -65,11 +65,31 @@
     <!-- End Navigation Bar B4 Section-->
 
     <!-- Banner Section -->
-    <div class="uk-cover-container" id="home" style="margin-top:50px;">
+    <!-- <div class="uk-cover-container" id="home" style="margin-top:50px;">
         <canvas width="1920" height="600"></canvas>
         <img src="/static/images/background.png" alt="" uk-cover>
-    </div>
+    </div> -->
     <!-- End Banner Section -->
+
+    <!-- Slideshow Section -->
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade; autoplay: true; min-height: 600; max-height: 600" id="home" style="margin-top:50px;">
+
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="/static/images/background.png" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="/static/images/background1.png" alt="" uk-cover>
+            </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
+
+    </div>
+    <!-- End Slideshow Section -->
 
     <!-- Content Section-->
     <div class="ui inverted vertical stripe quote segment" style="background: #191A1C; border-top: solid 0.5px white;">
