@@ -72,7 +72,7 @@
     <!-- End Banner Section -->
 
     <!-- Slideshow Section -->
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade; autoplay: true; autoplay-interval: 4000; min-height: 300; max-height: 600" id="home" style="margin-top:50px;">
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade; autoplay: true; autoplay-interval: 5000; min-height: 200; max-height: 600" id="home" style="margin-top:50px;">
 
         <ul class="uk-slideshow-items">
             <li>
