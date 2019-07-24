@@ -1,166 +1,348 @@
-<!-- head_section.php section -->
-<?php require_once('includes/head_section.php') ?>
-<!-- End head_section.php section -->
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- UI Kit Web Framework -->
-<!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
-<!-- UIkit JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
-<!-- UI Kit Web Framework -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CGPA CALCULATOR</title>
 
-<title>CGPA Calculator</title>
+    <!-- Tab Icon -->
+    <link rel="icon" href="/static/images/uplogo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/images/uplogo.png" type="image/x-icon">
+    <!-- End Tab Icon -->
+
+    <!-- MD Bootsrap 4 -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css" rel="stylesheet">
+    <!-- End MD Bootsrap 4 -->
+
+    <!-- UI Kit Web Framework -->
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
+    <!-- End UI Kit Web Framework -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143688410-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-143688410-1');
+    </script>
+    <!-- End Global site tag (gtag.js) - Google Analytics -->
+
+    <style>
+        html,
+        body {
+            background: #f8f8f8;
+            scroll-behavior: smooth;
+        }
+
+        #space {
+            margin-bottom: 3%;
+        }
+
+        #about {
+            margin-bottom: 0%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #space {
+                margin-bottom: 5%;
+            }
+
+        }
+    </style>
 
 </head>
 
 <body>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPT6L5D" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- Navigation Bar B4 Section-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background:#1B1C1E;">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top grey darken-4">
         <div class="container">
-            <a href="#home"><img data-src="/static/images/Logo.png" data-srcset="/static/images/Logo.png" width="60"
-                    height="auto" alt="" uk-img></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">
+                <img src="/static/images/Logo.png" width="65" height="auto" alt="logo">
+            </a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Nav" aria-controls="Nav"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto" style="text-align:center;"> </ul>
-                <ul class="navbar-nav my-2 my-lg-0" style="text-align:center;">
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="Nav">
+                <ul class="navbar-nav mr-auto" style="text-align:center;">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home" class="item">Home</a>
+                        <a class="nav-link" href="#carousel-example-1z" class="item">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#space" class="item">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline" class="item">Timeline</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about" class="item">About</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Contact
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="https://www.facebook.com/ahmadauf.nasruddin" class="item"
-                                id="dropdown1">
-                                <i class="facebook icon"></i> Facebook</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="https://twitter.com/Auf2098" class="item" id="dropdown1">
-                                <i class="twitter icon"></i> Twitter</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="https://www.instagram.com/ahmadauf2098/" class="item"
-                                id="dropdown1">
-                                <i class="instagram icon"></i> Instagram</a>
-                        </div>
-                    </li>
+                </ul>
+                <ul class="navbar-nav my-2 my-lg-0">
+                    <div class="row" style="justify-content: center">
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light"
+                                href="https://www.facebook.com/ahmadauf.nasruddin">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="https://twitter.com/ahmadauf_">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="https://www.instagram.com/ahmadauf2098">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light" href="https://github.com/ahmadauf98">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
+        <!-- Collapsible content -->
     </nav>
-    <!-- End Navigation Bar B4 Section-->
+    <!-- End Navbar-->
 
-    <!-- Banner Section -->
-    <!-- <div class="uk-cover-container" id="home" style="margin-top:50px;">
-        <canvas width="1920" height="600"></canvas>
-        <img src="/static/images/background.png" alt="" uk-cover>
-    </div> -->
-    <!-- End Banner Section -->
+    <!-- Content Start Here -->
 
     <!-- Slideshow Section -->
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade; autoplay: true; autoplay-interval: 5000; min-height: 150; max-height: 600" id="home" style="margin-top:50px;">
-
-        <ul class="uk-slideshow-items">
-            <li>
-                <img src="/static/images/background.png" alt="" uk-cover>
-            </li>
-            <li>
-                <img src="/static/images/background1.png" alt="" uk-cover>
-            </li>
-        </ul>
-
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
-            uk-slideshow-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
-            uk-slideshow-item="next"></a>
-
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel" style="margin-top: 40px;">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="/static/images/background.png" alt="First slide">
+            </div>
+            <!--/First slide-->
+            <!--Second slide-->
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/static/images/background1.png" alt="Second slide">
+            </div>
+            <!--/Second slide-->
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
     </div>
     <!-- End Slideshow Section -->
 
-    <!-- Content Section-->
-    <div class="ui inverted vertical stripe quote segment" style="background: #191A1C; border-top: solid 0.5px white;">
-        <div class="ui inverted equal width stackable internally celled grid">
-            <div class=" inverted center aligned row">
+    <div class="container" style="margin-top:50px; margin-bottom: 20px;">
+        <div class="row" id="space">
 
-                <div class=" column">
-                    <h1 style="color:white"><b>CGPA CALCULATOR</b></h1>
-                    <h5 style="color:white">You can use this feature to calculate<br> your current semester grade
-                        point<br> averages (SGPA)
-                        and
-                        cumulative grade<br> point averages (CGPA).</h5><br>
-                    <a href="calculator.php">
-                        <div class="ui small green button">Click Here</div>
-                    </a>
-                </div>
+            <div class="col-sm-4" id="space">
+                <!-- Card Narrower -->
+                <div class="card card-cascade narrower">
 
-                <div class="column">
-                    <h1 style="color:white"><b>GRADE TARGET</b></h1>
-                    <h5 style="color:white">This feature is about how many marks<br> do you needed to score during the
-                        final<br> examination
-                        to get
-                        the grade you want.</h5><br><br>
-                    <a href="grade.php">
-                        <div class="ui small green button">Click Here</div>
-                    </a>
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="/static/images/cardpic1.JPG" alt="Card image cap">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade">
+
+                        <!-- Title -->
+                        <h4 class="font-weight-bold card-title">CGPA CALCULATOR</h4>
+                        <!-- Text -->
+                        <p class="card-text">You can use this feature to calculate
+                            your current semester grade point
+                            averages (SGPA) and cumulative grade
+                            point averages (CGPA).</p>
+                        <!-- Button -->
+                        <a class="btn grey darken-4 text-white" href="landingCalculator.php">Click Here</a>
+
+                    </div>
+
                 </div>
+                <!-- Card Narrower -->
+            </div>
+            <div class="col-sm-4" id="space">
+                <!-- Card Narrower -->
+                <div class="card card-cascade narrower">
+
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="/static/images/cardpic3.JPG" alt="Card image cap">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade">
+
+                        <!-- Title -->
+                        <h4 class="font-weight-bold card-title">GRADE TARGET</h4>
+                        <!-- Text -->
+                        <p class="card-text">This feature is about how many marks
+                            do you needed to score during the final
+                            examination to get the grade you want.</p>
+                        <!-- Button -->
+                        <a class="btn grey darken-4 text-white" href="landingGrade.php">Click Here</a>
+
+                    </div>
+
+                </div>
+                <!-- Card Narrower -->
+            </div>
+            <div class="col-sm-4">
+                <!-- Card Narrower -->
+                <div class="card card-cascade narrower">
+
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                        <img class="card-img-top" src="/static/images/cardpic3.JPG" alt="Card image cap">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade">
+
+                        <!-- Title -->
+                        <h4 class="font-weight-bold card-title">GPA TARGET</h4>
+                        <!-- Text -->
+                        <p class="card-text">You can use this feature to know GPA that you needed to score based on
+                            remaining credit hours to get your final CGPA.</p>
+                        <!-- Button -->
+                        <a class="btn grey darken-4 disabled">Coming Soon</a>
+
+                    </div>
+
+                </div>
+                <!-- Card Narrower -->
             </div>
         </div>
     </div>
-    <!-- End Content Section-->
 
-    <!-- About Section -->
-    <div class="ui inverted vertical stripe quote segment" id="about"
-        style="background: #191A1C; border-top: solid 0.5px white; border-bottom: solid 0.5px white;">
-        <div class="ui inverted equal width stackable internally celled grid">
-            <div class="inverted center aligned row">
-                <div class="column">
-                    <h1 style="color:white"><b>ABOUT</b></h1>
-                    <h5 style="margin: 0 20% 0 20%;color:white;">My intention to build this website is to help
-                        university students to calculate their cumulative
-                        grade point average (cgpa) and semester grade point average (gpa). There will be more features
-                        added to this website in the future. Thank you for supporting my first project (own project).
-                    </h5><br>
+    <div class="row" id="timeline">
+        <div class="col-sm-12">
+            <!-- Card -->
+            <div class="card card-image" style="background-image: url(/static/images/backgroundcard.jpg);  background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;">
+
+                <!-- Content -->
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h3 class="card-title text-white pt-2"><strong>Web Timeline</strong></h3>
+                        <br>
+                        <div class="row d-flex justify-content-center">
+
+                            <!-- Grid column -->
+                            <div class="col-xl-7 pb-2">
+
+                                <p class="card-text">Let's figure out how this website keeps upgrading from the
+                                    beginning of the deployment until what you see right now. You can see every major
+                                    and minor update of this website and most importantly is you can access to the
+                                    second last
+                                    major update code files through GitHub.</p>
+                            </div>
+                            <!-- Grid column -->
+
+                        </div>
+                        <br>
+                        <a class="btn white text-dark darken-4" href="timeline.php"><i class="fas fa-clone left"></i> View Timeline</a>
+                    </div>
                 </div>
+
             </div>
+            <!-- Card -->
+
         </div>
     </div>
-    <!-- About Section -->
 
-    <!-- Footer Section-->
-    <div class="ui inverted vertical footer segment" id="footer">
-        <div class="ui center aligned container">
-            <div class="ui stackable inverted divided grid">
-                <div class="twelve wide column" style="margin-left: 12%;">
-                    <h4 class="ui inverted header">&#9400; All rights reserved 2019 by AA Dev</h4>
-                    <p>This website is intended for use as a guide only. Contact your university or institution for
-                        exact
-                        determination.</p>
-                </div>
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center" id="about">
+
+        <!-- Title -->
+        <h3 class="card-title text-dark pt-2"><strong>About</strong></h3>
+        <!-- Grid row -->
+        <div class="row d-flex justify-content-center">
+
+            <!-- Grid column -->
+            <div class="col-xl-7 pb-2">
+
+                <p class="card-text">My intention to build this website is to help university students to calculate
+                    their cumulative grade point average (cgpa) and semester grade point average (gpa). There will
+                    be
+                    more features added to this website in the future. Thank you for supporting my first project
+                    (own
+                    project).</p>
+
             </div>
-            <div class="ui inverted section divider"></div>
-            <img src="/static/images/Logo.png" class="ui centered mini image">
-            <div class="ui horizontal inverted small divided link list">
-                <a class="item" href="https://ahmadauf98.github.io/">AA Dev Website</a>
-                <a class="item" href="#">Terms and Conditions</a>
-                <a class="item" href="#">Privacy Policy</a>
-            </div>
+            <!-- Grid column -->
         </div>
     </div>
-    <!-- End Footer Section-->
+    <!-- Jumbotron -->
+
+
+
+
+    <!-- Footer -->
+    <?php require_once('includes/footer.php') ?>
+    <!-- End Footer -->
+
+
+
+    <!-- End Content Here -->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js"></script>
+    <!-- END SCRIPTS -->
 </body>
 
 </html>
