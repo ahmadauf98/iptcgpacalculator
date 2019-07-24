@@ -134,29 +134,29 @@
                                         onchange="pFunction1()">
                                         <option value="">Grade</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
+                                            <?php if (isset($grade1) && $grade1=="4.00") echo "checked";?>>A+</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
+                                            <?php if (isset($grade1) && $grade1=="4.00") echo "checked";?>>A</option>
                                         <option value="3.70"
-                                            <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                                            <?php if (isset($grade1) && $grade1=="3.70") echo "checked";?>>A-</option>
                                         <option value="3.30"
-                                            <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
+                                            <?php if (isset($grade1) && $grade1=="3.30") echo "checked";?>>B+</option>
                                         <option value="3.00"
-                                            <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
+                                            <?php if (isset($grade1) && $grade1=="3.00") echo "checked";?>>B</option>
                                         <option value="2.70"
-                                            <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                                            <?php if (isset($grade1) && $grade1=="2.70") echo "checked";?>>B-</option>
                                         <option value="2.30"
-                                            <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
+                                            <?php if (isset($grade1) && $grade1=="2.30") echo "checked";?>>C+</option>
                                         <option value="2.00"
-                                            <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
+                                            <?php if (isset($grade1) && $grade1=="2.00") echo "checked";?>>C</option>
                                         <option value="1.70"
-                                            <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                                            <?php if (isset($grade1) && $grade1=="1.70") echo "checked";?>>C-</option>
                                         <option value="1.30"
-                                            <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D+</option>
+                                            <?php if (isset($grade1) && $grade1=="1.30") echo "checked";?>>D+</option>
                                         <option value="1.00"
-                                            <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
+                                            <?php if (isset($grade1) && $grade1=="1.00") echo "checked";?>>D</option>
                                         <option value="0.00"
-                                            <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
+                                            <?php if (isset($grade1) && $grade1=="0.00") echo "checked";?>>F</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-3" id="formspace">
@@ -185,29 +185,29 @@
                                         onchange="pFunction2()">
                                         <option value="">Grade</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
+                                            <?php if (isset($grade2) && $grade2=="4.00") echo "checked";?>>A+</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
+                                            <?php if (isset($grade2) && $grade2=="4.00") echo "checked";?>>A</option>
                                         <option value="3.70"
-                                            <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                                            <?php if (isset($grade2) && $grade2=="3.70") echo "checked";?>>A-</option>
                                         <option value="3.30"
-                                            <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
+                                            <?php if (isset($grade2) && $grade2=="3.30") echo "checked";?>>B+</option>
                                         <option value="3.00"
-                                            <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
+                                            <?php if (isset($grade2) && $grade2=="3.00") echo "checked";?>>B</option>
                                         <option value="2.70"
-                                            <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                                            <?php if (isset($grade2) && $grade2=="2.70") echo "checked";?>>B-</option>
                                         <option value="2.30"
-                                            <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
+                                            <?php if (isset($grade2) && $grade2=="2.30") echo "checked";?>>C+</option>
                                         <option value="2.00"
-                                            <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
+                                            <?php if (isset($grade2) && $grade2=="2.00") echo "checked";?>>C</option>
                                         <option value="1.70"
-                                            <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                                            <?php if (isset($grade2) && $grade2=="1.70") echo "checked";?>>C-</option>
                                         <option value="1.30"
-                                            <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D+</option>
+                                            <?php if (isset($grade2) && $grade2=="1.30") echo "checked";?>>D+</option>
                                         <option value="1.00"
-                                            <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
+                                            <?php if (isset($grade2) && $grade2=="1.00") echo "checked";?>>D</option>
                                         <option value="0.00"
-                                            <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
+                                            <?php if (isset($grade2) && $grade2=="0.00") echo "checked";?>>F</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-3" id="formspace">
@@ -236,29 +236,29 @@
                                         onchange="pFunction3()">
                                         <option value="">Grade</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
+                                            <?php if (isset($grade3) && $grade3=="4.00") echo "checked";?>>A+</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
+                                            <?php if (isset($grade3) && $grade3=="4.00") echo "checked";?>>A</option>
                                         <option value="3.70"
-                                            <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                                            <?php if (isset($grade3) && $grade3=="3.70") echo "checked";?>>A-</option>
                                         <option value="3.30"
-                                            <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
+                                            <?php if (isset($grade3) && $grade3=="3.30") echo "checked";?>>B+</option>
                                         <option value="3.00"
-                                            <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
+                                            <?php if (isset($grade3) && $grade3=="3.00") echo "checked";?>>B</option>
                                         <option value="2.70"
-                                            <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                                            <?php if (isset($grade3) && $grade3=="2.70") echo "checked";?>>B-</option>
                                         <option value="2.30"
-                                            <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
+                                            <?php if (isset($grade3) && $grade3=="2.30") echo "checked";?>>C+</option>
                                         <option value="2.00"
-                                            <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
+                                            <?php if (isset($grade3) && $grade3=="2.00") echo "checked";?>>C</option>
                                         <option value="1.70"
-                                            <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                                            <?php if (isset($grade3) && $grade3=="1.70") echo "checked";?>>C-</option>
                                         <option value="1.30"
-                                            <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D+</option>
+                                            <?php if (isset($grade3) && $grade3=="1.30") echo "checked";?>>D+</option>
                                         <option value="1.00"
-                                            <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
+                                            <?php if (isset($grade3) && $grade3=="1.00") echo "checked";?>>D</option>
                                         <option value="0.00"
-                                            <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
+                                            <?php if (isset($grade3) && $grade3=="0.00") echo "checked";?>>F</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-3" id="formspace">
@@ -287,29 +287,29 @@
                                         onchange="pFunction4()">
                                         <option value="">Grade</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
+                                            <?php if (isset($grade4) && $grade4=="4.00") echo "checked";?>>A+</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
+                                            <?php if (isset($grade4) && $grade4=="4.00") echo "checked";?>>A</option>
                                         <option value="3.70"
-                                            <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                                            <?php if (isset($grade4) && $grade4=="3.70") echo "checked";?>>A-</option>
                                         <option value="3.30"
-                                            <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
+                                            <?php if (isset($grade4) && $grade4=="3.30") echo "checked";?>>B+</option>
                                         <option value="3.00"
-                                            <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
+                                            <?php if (isset($grade4) && $grade4=="3.00") echo "checked";?>>B</option>
                                         <option value="2.70"
-                                            <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                                            <?php if (isset($grade4) && $grade4=="2.70") echo "checked";?>>B-</option>
                                         <option value="2.30"
-                                            <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
+                                            <?php if (isset($grade4) && $grade4=="2.30") echo "checked";?>>C+</option>
                                         <option value="2.00"
-                                            <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
+                                            <?php if (isset($grade4) && $grade4=="2.00") echo "checked";?>>C</option>
                                         <option value="1.70"
-                                            <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                                            <?php if (isset($grade4) && $grade4=="1.70") echo "checked";?>>C-</option>
                                         <option value="1.30"
-                                            <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D+</option>
+                                            <?php if (isset($grade4) && $grade4=="1.30") echo "checked";?>>D+</option>
                                         <option value="1.00"
-                                            <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
+                                            <?php if (isset($grade4) && $grade4=="1.00") echo "checked";?>>D</option>
                                         <option value="0.00"
-                                            <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
+                                            <?php if (isset($grade4) && $grade4=="0.00") echo "checked";?>>F</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-3" id="formspace">
@@ -338,29 +338,29 @@
                                         onchange="pFunction5()">
                                         <option value="">Grade</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
+                                            <?php if (isset($grade5) && $grade5=="4.00") echo "checked";?>>A+</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
+                                            <?php if (isset($grade5) && $grade5=="4.00") echo "checked";?>>A</option>
                                         <option value="3.70"
-                                            <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                                            <?php if (isset($grade5) && $grade5=="3.70") echo "checked";?>>A-</option>
                                         <option value="3.30"
-                                            <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
+                                            <?php if (isset($grade5) && $grade5=="3.30") echo "checked";?>>B+</option>
                                         <option value="3.00"
-                                            <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
+                                            <?php if (isset($grade5) && $grade5=="3.00") echo "checked";?>>B</option>
                                         <option value="2.70"
-                                            <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                                            <?php if (isset($grade5) && $grade5=="2.70") echo "checked";?>>B-</option>
                                         <option value="2.30"
-                                            <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
+                                            <?php if (isset($grade5) && $grade5=="2.30") echo "checked";?>>C+</option>
                                         <option value="2.00"
-                                            <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
+                                            <?php if (isset($grade5) && $grade5=="2.00") echo "checked";?>>C</option>
                                         <option value="1.70"
-                                            <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                                            <?php if (isset($grade5) && $grade5=="1.70") echo "checked";?>>C-</option>
                                         <option value="1.30"
-                                            <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D+</option>
+                                            <?php if (isset($grade5) && $grade5=="1.30") echo "checked";?>>D+</option>
                                         <option value="1.00"
-                                            <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
+                                            <?php if (isset($grade5) && $grade5=="1.00") echo "checked";?>>D</option>
                                         <option value="0.00"
-                                            <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
+                                            <?php if (isset($grade5) && $grade5=="0.00") echo "checked";?>>F</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-3" id="formspace">
@@ -389,29 +389,29 @@
                                         onchange="pFunction6()">
                                         <option value="">Grade</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
+                                            <?php if (isset($grade6) && $grade6=="4.00") echo "checked";?>>A+</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
+                                            <?php if (isset($grade6) && $grade6=="4.00") echo "checked";?>>A</option>
                                         <option value="3.70"
-                                            <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                                            <?php if (isset($grade6) && $grade6=="3.70") echo "checked";?>>A-</option>
                                         <option value="3.30"
-                                            <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
+                                            <?php if (isset($grade6) && $grade6=="3.30") echo "checked";?>>B+</option>
                                         <option value="3.00"
-                                            <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
+                                            <?php if (isset($grade6) && $grade6=="3.00") echo "checked";?>>B</option>
                                         <option value="2.70"
-                                            <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                                            <?php if (isset($grade6) && $grade6=="2.70") echo "checked";?>>B-</option>
                                         <option value="2.30"
-                                            <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
+                                            <?php if (isset($grade6) && $grade6=="2.30") echo "checked";?>>C+</option>
                                         <option value="2.00"
-                                            <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
+                                            <?php if (isset($grade6) && $grade6=="2.00") echo "checked";?>>C</option>
                                         <option value="1.70"
-                                            <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                                            <?php if (isset($grade6) && $grade6=="1.70") echo "checked";?>>C-</option>
                                         <option value="1.30"
-                                            <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D+</option>
+                                            <?php if (isset($grade6) && $grade6=="1.30") echo "checked";?>>D+</option>
                                         <option value="1.00"
-                                            <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
+                                            <?php if (isset($grade6) && $grade6=="1.00") echo "checked";?>>D</option>
                                         <option value="0.00"
-                                            <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
+                                            <?php if (isset($grade6) && $grade6=="0.00") echo "checked";?>>F</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-3" id="formspace">
@@ -440,29 +440,29 @@
                                         onchange="pFunction7()">
                                         <option value="">Grade</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
+                                            <?php if (isset($grade7) && $grade7=="4.00") echo "checked";?>>A+</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
+                                            <?php if (isset($grade7) && $grade7=="4.00") echo "checked";?>>A</option>
                                         <option value="3.70"
-                                            <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                                            <?php if (isset($grade7) && $grade7=="3.70") echo "checked";?>>A-</option>
                                         <option value="3.30"
-                                            <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
+                                            <?php if (isset($grade7) && $grade7=="3.30") echo "checked";?>>B+</option>
                                         <option value="3.00"
-                                            <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
+                                            <?php if (isset($grade7) && $grade7=="3.00") echo "checked";?>>B</option>
                                         <option value="2.70"
-                                            <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                                            <?php if (isset($grade7) && $grade7=="2.70") echo "checked";?>>B-</option>
                                         <option value="2.30"
-                                            <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
+                                            <?php if (isset($grade7) && $grade7=="2.30") echo "checked";?>>C+</option>
                                         <option value="2.00"
-                                            <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
+                                            <?php if (isset($grade7) && $grade7=="2.00") echo "checked";?>>C</option>
                                         <option value="1.70"
-                                            <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                                            <?php if (isset($grade7) && $grade7=="1.70") echo "checked";?>>C-</option>
                                         <option value="1.30"
-                                            <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D+</option>
+                                            <?php if (isset($grade7) && $grade7=="1.30") echo "checked";?>>D+</option>
                                         <option value="1.00"
-                                            <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
+                                            <?php if (isset($grade7) && $grade7=="1.00") echo "checked";?>>D</option>
                                         <option value="0.00"
-                                            <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
+                                            <?php if (isset($grade7) && $grade7=="0.00") echo "checked";?>>F</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-3" id="formspace">
@@ -491,29 +491,29 @@
                                         onchange="pFunction8()">
                                         <option value="">Grade</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A+</option>
+                                            <?php if (isset($grade8) && $grade8=="4.00") echo "checked";?>>A+</option>
                                         <option value="4.00"
-                                            <?php if (isset($grade) && $grade=="4.00") echo "checked";?>>A</option>
+                                            <?php if (isset($grade8) && $grade8=="4.00") echo "checked";?>>A</option>
                                         <option value="3.70"
-                                            <?php if (isset($grade) && $grade=="3.70") echo "checked";?>>A-</option>
+                                            <?php if (isset($grade8) && $grade8=="3.70") echo "checked";?>>A-</option>
                                         <option value="3.30"
-                                            <?php if (isset($grade) && $grade=="3.30") echo "checked";?>>B+</option>
+                                            <?php if (isset($grade8) && $grade8=="3.30") echo "checked";?>>B+</option>
                                         <option value="3.00"
-                                            <?php if (isset($grade) && $grade=="3.00") echo "checked";?>>B</option>
+                                            <?php if (isset($grade8) && $grade8=="3.00") echo "checked";?>>B</option>
                                         <option value="2.70"
-                                            <?php if (isset($grade) && $grade=="2.70") echo "checked";?>>B-</option>
+                                            <?php if (isset($grade8) && $grade8=="2.70") echo "checked";?>>B-</option>
                                         <option value="2.30"
-                                            <?php if (isset($grade) && $grade=="2.30") echo "checked";?>>C+</option>
+                                            <?php if (isset($grade8) && $grade8=="2.30") echo "checked";?>>C+</option>
                                         <option value="2.00"
-                                            <?php if (isset($grade) && $grade=="2.00") echo "checked";?>>C</option>
+                                            <?php if (isset($grade8) && $grade8=="2.00") echo "checked";?>>C</option>
                                         <option value="1.70"
-                                            <?php if (isset($grade) && $grade=="1.70") echo "checked";?>>C-</option>
+                                            <?php if (isset($grade8) && $grade8=="1.70") echo "checked";?>>C-</option>
                                         <option value="1.30"
-                                            <?php if (isset($grade) && $grade=="1.30") echo "checked";?>>D+</option>
+                                            <?php if (isset($grade8) && $grade8=="1.30") echo "checked";?>>D+</option>
                                         <option value="1.00"
-                                            <?php if (isset($grade) && $grade=="1.00") echo "checked";?>>D</option>
+                                            <?php if (isset($grade8) && $grade8=="1.00") echo "checked";?>>D</option>
                                         <option value="0.00"
-                                            <?php if (isset($grade) && $grade=="0.00") echo "checked";?>>F</option>
+                                            <?php if (isset($grade8) && $grade8=="0.00") echo "checked";?>>F</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-3" id="formspace">
