@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Grade Target KDU</title>
+    <title>GRADE TARGET KDU</title>
 
     <!-- Tab Icon -->
     <link rel="icon" href="/static/images/uplogo.png" type="image/x-icon">

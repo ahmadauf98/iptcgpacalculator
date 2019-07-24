@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Grade Target UMT</title>
+    <title>GRADE TARGET UMT</title>
 
     <!-- Tab Icon -->
     <link rel="icon" href="/static/images/uplogo.png" type="image/x-icon">

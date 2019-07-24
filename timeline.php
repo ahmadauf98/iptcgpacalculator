@@ -296,7 +296,7 @@
                                         page into the website. Fix responsiveness of the mobile browser. Added result
                                         slot on CGPA Calculator page and Grade Target Page. Redesign the navigation bar
                                         and footer of the website. Change the dropdown button to the social icon button
-                                        on the navigation bar. Added 3 private universities into the website.
+                                        on the navigation bar. Added 2 private universities into the website.
                                     </p>
                                 </div>
                             </div>
