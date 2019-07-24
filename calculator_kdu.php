@@ -109,12 +109,12 @@
                             <div class="row">
                                 <div class="col-sm-6" id="formspace">
                                     <!-- Cumulative GPA Input -->
-                                    <input class=" input form-control" type="number" step="0.01" min="0.00" max="4.00"
+                                    <input class=" input form-control" type="number" step="0.01" min="0" max="4"
                                         name="cgpa" value="<?php echo $cgpa;?>" placeholder="Cumulative GPA">
                                 </div>
                                 <div class="col-sm-6">
                                     <!-- Total Credit Hours Input -->
-                                    <input class=" input1 form-control" type="number" min="0" name="tch"
+                                    <input class=" input1 form-control" type="number" min="1" name="tch"
                                         value="<?php echo $tch;?>" placeholder="Total Credit Hours">
                                 </div>
                             </div>
