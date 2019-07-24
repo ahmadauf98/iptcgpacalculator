@@ -2,7 +2,7 @@
     if (empty($totalCredit)|| empty($totalGradePoints)) {
     echo "";
     }
-    else if (empty($cgpa)|| empty($tch) || $cgpa === 0 || $tch === 0) {
+    else if (empty($cgpa)|| empty($tch) || $cgpa == 0 || $tch == 0) {
     
     echo "<i>This Semester:</i>"."<br>";
     echo "Total Credits: ".$totalCredit."<br>";

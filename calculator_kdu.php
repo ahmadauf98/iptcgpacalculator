@@ -114,7 +114,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <!-- Total Credit Hours Input -->
-                                    <input class=" input1 form-control" type="number" min="1" name="tch"
+                                    <input class=" input1 form-control" type="number" min="0" name="tch"
                                         value="<?php echo $tch;?>" placeholder="Total Credit Hours">
                                 </div>
                             </div>
