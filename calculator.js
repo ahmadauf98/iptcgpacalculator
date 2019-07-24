@@ -126,19 +126,28 @@ function gpFunction8() {
     gp.placeholder = t;
 }
 
-document.querySelector('.input').value="Cumulative GPA"; 
-document.querySelector('.input1').value="Total Credit Hours";
+// Auto Reset
+document.querySelector('.input').value = "Cumulative GPA";
+document.querySelector('.input1').value = "Total Credit Hours";
+document.querySelector('#ch1').value = "";
+document.querySelector('#ch2').value = "";
+document.querySelector('#ch3').value = "";
+document.querySelector('#ch4').value = "";
+document.querySelector('#ch5').value = "";
+document.querySelector('#ch6').value = "";
+document.querySelector('#ch7').value = "";
+document.querySelector('#ch8').value = "";
 
-function clearForm()
-{
-    document.querySelector('.input').value=""; 
-    document.querySelector('.input1').value=""; 
-    document.querySelector('#ch1').value=""; 
-    document.querySelector('#ch2').value=""; 
-    document.querySelector('#ch3').value=""; 
-    document.querySelector('#ch4').value=""; 
-    document.querySelector('#ch5').value=""; 
-    document.querySelector('#ch6').value="";  
-    document.querySelector('#ch7').value=""; 
-    document.querySelector('#ch8').value=""; 
+// Manual Reset
+function clearForm() {
+    document.querySelector('.input').value = "";
+    document.querySelector('.input1').value = "";
+    document.querySelector('#ch1').value = "";
+    document.querySelector('#ch2').value = "";
+    document.querySelector('#ch3').value = "";
+    document.querySelector('#ch4').value = "";
+    document.querySelector('#ch5').value = "";
+    document.querySelector('#ch6').value = "";
+    document.querySelector('#ch7').value = "";
+    document.querySelector('#ch8').value = "";
 }
