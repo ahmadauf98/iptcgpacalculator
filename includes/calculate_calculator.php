@@ -106,8 +106,37 @@ if (empty($_POST["ch8"])) {
     $ch8 = test_input($_POST["ch8"]);
   }
 
+
+if (empty($_POST["grade1"])) {
+    $ch1 = 0;
+}
+
 if (empty($_POST["grade2"])) {
     $ch2 = 0;
+}
+
+if (empty($_POST["grade3"])) {
+    $ch3 = 0;
+}
+
+if (empty($_POST["grade4"])) {
+    $ch4 = 0;
+}
+
+if (empty($_POST["grade5"])) {
+    $ch5 = 0;
+}
+
+if (empty($_POST["grade6"])) {
+    $ch6 = 0;
+}
+
+if (empty($_POST["grade7"])) {
+    $ch7 = 0;
+}
+
+if (empty($_POST["grade8"])) {
+    $ch8 = 0;
 }
 
   $totalCredit = $ch1 + $ch2 + $ch3 + $ch4 + $ch5 + $ch6 + $ch7  + $ch8 ;
