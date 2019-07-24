@@ -312,7 +312,7 @@
                                 <!-- Section Description -->
                                 <div class="step-content z-depth-1 mr-xl-2 p-4">
                                     <h4 class="font-weight-bold">Minor Update v3.0.1</h4>
-                                    <p class="text-muted mt-3"><i class="far fa-clock" aria-hidden="true"></i> 19 July
+                                    <p class="text-muted mt-3"><i class="far fa-clock" aria-hidden="true"></i> 25 July
                                         2019</p>
 
                                     <p class=" mt-4 mb-0">Fix Cumulative GPA and Total Credit Hours placeholder display
