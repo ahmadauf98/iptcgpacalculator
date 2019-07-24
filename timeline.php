@@ -174,7 +174,7 @@
                                         The feature that only has on this website is CGPA calculator. This feature is
                                         used to calculate your current CGPA based on your university grading system.
                                         There are only 4 public university and 4 private university available.</p>
-                                    
+
                                 </div>
                             </div>
                         </li>
@@ -198,7 +198,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <!--Section Title -->
-                            <a href="#!"  class="disabled">
+                            <a href="#!" class="disabled">
                                 <span class="circle primary-color z-depth-1-half"><i
                                         class="fas fa-cog fa-spin"></i></span>
                             </a>
@@ -301,7 +301,26 @@
                                 </div>
                             </div>
                         </li>
+                        <li class="timeline-inverted">
+                            <!--Section Title -->
+                            <a href="#!" class="disabled">
+                                <span class="circle primary-color z-depth-1-half"><i
+                                        class="fas fa-cog fa-spin"></i></span>
+                            </a>
 
+                            <div class="col-sm-6">
+                                <!-- Section Description -->
+                                <div class="step-content z-depth-1 mr-xl-2 p-4">
+                                    <h4 class="font-weight-bold">Minor Update v3.0.1</h4>
+                                    <p class="text-muted mt-3"><i class="far fa-clock" aria-hidden="true"></i> 19 July
+                                        2019</p>
+
+                                    <p class=" mt-4 mb-0">Fix Cumulative GPA and Total Credit Hours placeholder display
+                                        issues. Added auto reset for input after user click submit
+                                        button for both features.</p>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                     <!-- Timeline Wrapper -->
                 </div>
