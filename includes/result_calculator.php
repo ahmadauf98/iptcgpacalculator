@@ -1,8 +1,8 @@
 <?php
-    if (empty($totalCredit)|| empty($totalGradePoints)) {
+    if ($totalCredit == null|| $totalGradePoints == null) {
     echo "";
     }
-    else if (empty($cgpa)|| empty($tch)) {
+    else if ($cgpa == null|| $tch== null || $cgpa === 0 || $tch === 0) {
     
     echo "<i>This Semester:</i>"."<br>";
     echo "Total Credits: ".$totalCredit."<br>";
@@ -14,7 +14,6 @@
     echo "Credits: ".$tch."<br>";
     echo "Grade Points: ".$tgp."<br>";
     echo "Initial CGPA: ".$cgpa."<br><br>";
-    
 
     echo "<i>This Semester:</i>"."<br>";
     echo "Credits: ".$totalCredit."<br>";
