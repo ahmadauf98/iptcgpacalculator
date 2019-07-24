@@ -290,7 +290,7 @@
                                 <!-- Section Description -->
                                 <div class="step-content z-depth-1 mr-xl-2 p-4">
                                     <h2 class="font-weight-bold">Major Update v3.0</h2>
-                                    <p class="text-muted mt-3"><i class="far fa-clock" aria-hidden="true"></i> 3 August
+                                    <p class="text-muted mt-3"><i class="far fa-clock" aria-hidden="true"></i> 25 July
                                         2019</p>
                                     <p class=" mt-4 mb-0">Update new User Interface of the website. Added new timeline
                                         page into the website. Fix responsiveness of the mobile browser. Added result
