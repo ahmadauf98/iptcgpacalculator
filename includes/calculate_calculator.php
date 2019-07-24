@@ -106,6 +106,10 @@ if (empty($_POST["ch8"])) {
     $ch8 = test_input($_POST["ch8"]);
   }
 
+if (empty($_POST["grade1"])) {
+    $ch2 = 0;
+}
+
   $totalCredit = $ch1 + $ch2 + $ch3 + $ch4 + $ch5 + $ch6 + $ch7  + $ch8 ;
   $totalGradePoints = ($grade1*$ch1) + ($grade2*$ch2) + ($grade3*$ch3) + ($grade4*$ch4) + ($grade5*$ch5) + ($grade6*$ch6) + ($grade7*$ch7) + ($grade8*$ch8);
   $sgpa = $totalGradePoints/$totalCredit;
