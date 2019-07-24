@@ -7,8 +7,20 @@ $sgpa = $tgp = $ttcredit = $ttgp = $totalcgpa = 0;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-$cgpa = test_input($_POST["cgpa"]);
-$tch = test_input($_POST["tch"]);
+
+
+
+if (empty($_POST["cgpa"])) {
+  $cgpa = "";
+} else {
+  $cgpa = test_input($_POST["cgpa"]);
+}
+
+if (empty($_POST["tch"])) {
+  $tch = "";
+} else {
+  $tch = test_input($_POST["tch"]);
+}
 
 if (empty($_POST["grade1"])) {
     $grade1 = 0;
