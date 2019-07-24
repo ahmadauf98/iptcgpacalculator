@@ -126,6 +126,9 @@ function gpFunction8() {
     gp.placeholder = t;
 }
 
+document.querySelector('.input').value="Cumulative GPA"; 
+document.querySelector('.input1').value="Total Credit Hours";
+
 function clearForm()
 {
     document.querySelector('.input').value=""; 
