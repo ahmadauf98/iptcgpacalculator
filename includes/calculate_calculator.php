@@ -106,7 +106,7 @@ if (empty($_POST["ch8"])) {
     $ch8 = test_input($_POST["ch8"]);
   }
 
-if (empty($_POST["grade1"])) {
+if (empty($_POST["grade2"])) {
     $ch2 = 0;
 }
 
