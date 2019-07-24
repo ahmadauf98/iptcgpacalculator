@@ -11,13 +11,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 if (empty($_POST["cgpa"])) {
-  $cgpa = "";
+  $cgpa = "Cumulative GPA";
 } else {
   $cgpa = test_input($_POST["cgpa"]);
 }
 
 if (empty($_POST["tch"])) {
-  $tch = "";
+  $tch = "Total Credit Hours";
 } else {
   $tch = test_input($_POST["tch"]);
 }
