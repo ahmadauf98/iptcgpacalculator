@@ -192,7 +192,7 @@
                         <!-- Title -->
                         <h4 class="font-weight-bold card-title">CGPA CALCULATOR</h4>
                         <!-- Text -->
-                        <p class="card-text">You can use this feature to calculate
+                        <p class="card-text">You can use CGPA Calculator to calculate
                             your current semester grade point
                             averages (SGPA) and cumulative grade
                             point averages (CGPA).</p>
@@ -222,7 +222,7 @@
                         <!-- Title -->
                         <h4 class="font-weight-bold card-title">GRADE TARGET</h4>
                         <!-- Text -->
-                        <p class="card-text">This feature is about how many marks
+                        <p class="card-text">Grade Target is about how many marks
                             do you needed to score during the final
                             examination to get the grade you want.</p>
                         <!-- Button -->
@@ -251,7 +251,7 @@
                         <!-- Title -->
                         <h4 class="font-weight-bold card-title">GPA TARGET</h4>
                         <!-- Text -->
-                        <p class="card-text">You can use this feature to know GPA that you needed to score based on
+                        <p class="card-text">You can use GPA Target to know GPA that you needed to score based on
                             remaining credit hours to get your final CGPA.</p>
                         <!-- Button -->
                         <a class="btn grey darken-4 disabled">Coming Soon</a>
