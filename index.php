@@ -174,7 +174,7 @@
     <div class="container" style="margin-top:50px; margin-bottom: 20px;">
         <div class="row" id="space">
 
-            <div class="col-sm-4" id="space">
+            <div class="col-sm-6" id="space">
                 <!-- Card Narrower -->
                 <div class="card card-cascade narrower">
 
@@ -192,7 +192,7 @@
                         <!-- Title -->
                         <h4 class="font-weight-bold card-title">CGPA CALCULATOR</h4>
                         <!-- Text -->
-                        <p class="card-text">You can use CGPA Calculator to calculate
+                        <p class="card-text">You can use this feature to calculate
                             your current semester grade point
                             averages (SGPA) and cumulative grade
                             point averages (CGPA).</p>
@@ -204,7 +204,7 @@
                 </div>
                 <!-- Card Narrower -->
             </div>
-            <div class="col-sm-4" id="space">
+            <div class="col-sm-6" id="space">
                 <!-- Card Narrower -->
                 <div class="card card-cascade narrower">
 
@@ -222,39 +222,11 @@
                         <!-- Title -->
                         <h4 class="font-weight-bold card-title">GRADE TARGET</h4>
                         <!-- Text -->
-                        <p class="card-text">Grade Target is about how many marks
+                        <p class="card-text">This feature is about how many marks
                             do you needed to score during the final
                             examination to get the grade you want.</p>
                         <!-- Button -->
                         <a class="btn grey darken-4 text-white" href="landingGrade.php">Click Here</a>
-
-                    </div>
-
-                </div>
-                <!-- Card Narrower -->
-            </div>
-            <div class="col-sm-4">
-                <!-- Card Narrower -->
-                <div class="card card-cascade narrower">
-
-                    <!-- Card image -->
-                    <div class="view view-cascade overlay">
-                        <img class="card-img-top" src="/static/images/cardpic3.JPG" alt="Card image cap">
-                        <a>
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
-                    </div>
-
-                    <!-- Card content -->
-                    <div class="card-body card-body-cascade">
-
-                        <!-- Title -->
-                        <h4 class="font-weight-bold card-title">GPA TARGET</h4>
-                        <!-- Text -->
-                        <p class="card-text">You can use GPA Target to know GPA that you needed to score based on
-                            remaining credit hours to get your final CGPA.</p>
-                        <!-- Button -->
-                        <a class="btn grey darken-4 disabled">Coming Soon</a>
 
                     </div>
 
