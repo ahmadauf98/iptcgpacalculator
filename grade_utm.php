@@ -73,6 +73,14 @@
 
 <body>
 
+    <!-- Popcash Ads -->
+    <script type="text/javascript">
+        var uid = '244335';
+        var wid = '503021';
+    </script>
+    <script type="text/javascript" src="//cdn.popcash.net/pop.js"></script>
+    <!-- End Popcash Ads -->
+
     <!-- calculate_grade.php -->
     <?php require_once('includes/calculate_grade.php')?>
     <!-- End calculate_grade.php -->

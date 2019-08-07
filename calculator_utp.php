@@ -73,6 +73,14 @@
 
 <body>
 
+    <!-- Popcash Ads -->
+    <script type="text/javascript">
+        var uid = '244335';
+        var wid = '503021';
+    </script>
+    <script type="text/javascript" src="//cdn.popcash.net/pop.js"></script>
+    <!-- End Popcash Ads -->
+
     <!--Navbar-->
     <?php require_once('includes/calculator_navbar.php') ?>
     <!-- End Navbar-->
@@ -590,7 +598,7 @@
                         <thead>
                             <tr>
                                 <th>Letter</th>
-                                <th>Marks</th>
+                                <th>Grade Points</th>
                             </tr>
                         </thead>
                         <tbody>
